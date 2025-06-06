@@ -1,0 +1,292 @@
+
+
+	<link rel="canonical"  href="https://abes.ac.in/.html/">	<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+
+	<link rel="canonical"  href="https://abes.ac.in/navbar.html/">	
+    <!-- <link rel="stylesheet" href="./styles/common.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/script.js" defer></script>
+    <!-- <script src="./scripts/admission-navbar.js" defer></script> -->
+    <!-- <script src="./scripts/leadership-navbar.js" defer></script> -->
+  </head>
+  <body>
+    <div class="navbar active">
+      <div class="logo-container">
+        <a href="index.html">
+          <img src="./assets/logo-9.png" class="abes-logo" alt="logo" />
+        </a>
+      </div>
+      <div
+        class="navbar-menu"
+        style="position: absolute; z-index: 100; top: 30px; right: 20px"
+        id="navbarMenu"
+      >
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="menu-dropdown" id="menuDropdown">
+        <span class="close-icon"><i class="fas fa-times"></i></span>
+        <p>About Us</p>
+        <p>
+          Admissions<span class="navbar-expand-icon"
+            ><i class="fas fa-caret-down"></i
+          ></span>
+        </p>
+        <p>
+          Academics<span class="navbar-expand-icon"
+            >
+            <i class="fas fa-caret-down"></i
+          ></span>
+        </p>
+        <p>Life @ ABESEC</p>
+        <p>Placement</p>
+        <p>Training</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="navbar-items" id="navbarItems">
+        <p class="aboutus-dropdown-toggle dropdown-toggle">About Us</p>
+        <div class="aboutus-dropdown menu-dropdown-wrapper">
+          <div class="menu-dropdown-container">
+            <div class="menu-item-section-wrapper">
+              <div class="menu-item-section">
+                <h3 class="menu-section-heading">Values of the Institution</h3>
+                <a class="menu-section-link" href="visionmission.html">
+                  Vision & Mission
+                </a>
+                <a class="menu-section-link" href="visionmission.html#core-values-container">
+                  Core Values
+                </a>
+                <a class="menu-section-link" href="visionmission.html#quality-policy-container">
+                  Quality Policy
+                </a>
+              </div>
+              <div class="menu-item-section">
+                <h3 class="menu-section-heading">
+                  <a href="bog.html">Leadership</a>
+                </h3>
+                <a class="menu-section-link" href="bog.html#bog-section" onclick="leadershipMetaSwitch()">
+                  BOG
+                </a>
+                <a class="menu-section-link" href="bog.html#president-section" onclick="leadershipMetaSwitch()">
+                  President's Message
+                </a>
+                <a
+                  class="menu-section-link"
+                  href="bog.html#vice-president-section"
+                  onclick="leadershipMetaSwitch()"
+                >
+                  Vice President's Message
+                </a>
+                <a
+                  class="menu-section-link"
+                  href="bog.html#director-section"
+                  onclick="leadershipMetaSwitch()"
+                >
+                  Director's Message
+                </a>
+                <a
+                  class="menu-section-link"
+                  href="Chairmanmessage.html"
+                  onclick="leadershipMetaSwitch()"
+                >
+                  President's Message
+                </a>
+              </div>
+            </div>
+            <div class="menu-item-section-wrapper">
+              <div class="menu-item-section">
+                <h3 class="menu-section-heading">Accreditation & Rankings</h3>
+                <a class="menu-section-link" href="nba-accredited-college.html"> NBA </a>
+                <a class="menu-section-link" href="naac-accredited-colleges.html"> NAAC </a>
+                <a class="menu-section-link" href="ACC-iso.html"> ISO </a>
+                <a class="menu-section-link" href="nirf-ranking-college.html"> NIRF </a>
+                <a class="menu-section-link" href="ACC-iic_ariia.html"> IIC </a>
+                <a class="menu-section-link" href="ariia.html"> ARIIA </a>
+              </div>
+
+              <div class="menu-item-section">
+                <h3 class="menu-section-heading">Achievement & Recognition</h3>
+                <a class="menu-section-link" href="#">
+                  Institute Achievements
+                </a>
+                <a class="menu-section-link" href="#"> Student Achievements </a>
+              </div>
+            </div>
+            <div class="menu-item-section-wrapper">
+              <div class="menu-item-section">
+                <h3 class="menu-section-heading">RELATED LINKS</h3>
+                <a class="menu-section-link" href="./circulars.html"> Circulars </a>
+                <a class="menu-section-link" href="./Academic-Calender.html"> Academic Calendar </a>
+                <a class="menu-section-link" href="./circulars.html"> Notices </a>
+                <a class="menu-section-link" href="./footer-Committees.html"> Committees </a>
+                <a class="menu-section-link" href="#">
+                  Social Initiative - UBA
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="admissions-dropdown-toggle">
+          Admissions<span class="navbar-expand-icon"
+            ><i class="fas fa-caret-down"></i
+          ></span>
+        </p>
+
+        <div class="admissions-dropdown menu-dropdown-wrapper">
+          <div class="menu-dropdown-container">
+            <div class="menu-item-section">
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#progs-offered-description"
+                >Programs Offered</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#adm-procedure-description"
+                >Admission Procedure</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#eligibility-description"
+                >Eligibility</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#adm-enquiry-description"
+                >Admission Enquiry</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#docs-required-description"
+                >Documents Required</a
+              >
+            </div>
+            <div class="menu-item-section">
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#fee-structure-description"
+                >Fee Structure</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#payment-procedure-description"
+                >Payment Procedure</a
+              >
+              <a  onclick="getTarget()"
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#refund-policy-description"
+                >Refund Policy</a
+              >
+              <a onclick="getTarget()" 
+                class="menu-section-link adm-pages"
+                href="courses-offered.html#anti-ragging-description"
+                >Anti-Ragging (AICTE)</a
+              >
+              <a onclick="getTarget()"
+                class="menu-section-link adm-pages" 
+                href="courses-offered.html#scholarship-state-description"
+                >State/Central Scholarship Policies</a
+              >
+            </div>
+          </div>
+        </div>
+        <p class="academics-dropdown-toggle">
+          Academics<span class="navbar-expand-icon"
+            ><i class="fas fa-caret-down"></i
+          ></span>
+        </p>
+        <div class="academics-dropdown menu-dropdown-wrapper">
+          <div class="menu-dropdown-container">
+            <div class="menu-item-section">
+              <h3 class="menu-section-heading">Departments</h3>
+              <a class="menu-section-link" href="#"
+                >Computer Science & Engineering</a
+              >
+              <a class="menu-section-link" href="#">Computer Science</a>
+              <a class="menu-section-link" href="#">Information Technology</a>
+              <a class="menu-section-link" href="#"
+                >Computer Science & Engg. - AI & ML</a
+              >
+              <a class="menu-section-link" href="#"
+                >Computer Science & Engg. - Data Science</a
+              >
+              <a class="menu-section-link" href="./academics/mechanical-engineering.html"
+                >Mechanical Engineering</a
+              >
+              <a class="menu-section-link" href="#"
+                >Electronics & Communication Engg</a
+              >
+              <a class="menu-section-link" href="#">Computer Engineering</a>
+              <a class="menu-section-link" href="#"
+                >Electrical & Electronics Engineering</a
+              >
+              <!-- <a class="menu-section-link" href="/career-@-abes/index.html">Career @ ABES</a> -->
+            </div>
+            <div class="menu-item-section">
+              <a class="menu-section-link" href="#"
+                >Applied Sciences & Humanities</a
+              >
+              <a class="menu-section-link" href="#"
+                >Master of Business Administration</a
+              >
+              <a class="menu-section-link" href="#"
+                >Master Of Computer Application (MCA)</a
+              >
+              <a class="menu-section-link" href="#">Student Resource Book</a>
+              <a class="menu-section-link" href="course-curriculam.html"
+                >Course Curriculam</a
+              >
+              <a class="menu-section-link" href="./Academic-Calender.html">Academic Calendar</a>
+              <a class="menu-section-link" href="GRC-grievance-redressal-cell.html"
+                >Student Grievance Cell</a
+              >
+              <a class="menu-section-link" href="#">Center of Excellence</a>
+              <a class="menu-section-link" href="values-added-courses-overview.html"
+                >Value Added Courses</a
+              >
+            </div>
+          </div>
+        </div>
+        <p><a href="./life@abes_new.html" style="text-decoration: none; color: white;">Life @ ABESEC</a></p>
+        <p> <a href="./placement.html" style="text-decoration: none; color: white;">Placement</a></p>
+        <p class="training-dropdown-toggle">Training</p>
+        <div class="training-dropdown menu-dropdown-wrapper">
+          <div class="menu-dropdown-container">
+            <div class="menu-item-section">
+              <a class="menu-section-link" href="softskills-training.html"
+                >Soft Skills Training</a
+              >
+              <a class="menu-section-link" href="#">Technical Training</a>
+              <a class="menu-section-link" href="./values-added-courses-overview.html">Value Added Courses</a>
+            </div>
+          </div>
+        </div>
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </div>
+  </body>
+<script src="courses-offered.html"></script>
+<!-- <script>
+  function getTarget(){
+          // e.preventDefault();
+          const queryString = window.location.search;
+          const params = new URLSearchParams(queryString);
+          const target = params.get('tab');
+          return target; 
+        }
+
+
+        // target = getTarget()
+        // localStorage.setItem("target",target)
+</script> -->
+</html>
