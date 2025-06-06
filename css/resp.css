@@ -1,0 +1,1866 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+.inner-sec-colm1 li, .mainNav ul, ol, ul {
+    list-style: none;
+}
+
+
+
+
+.header-top-main,.main,.main-ftr{margin:0 auto;display:block}
+.header-top-main{max-width:1290px;width:100%}
+.main-content-colm9{display:table;position:relative;width:100%;background-color:#fafafa}
+.count-content{padding:0 15px}
+.count-content h2{font-weight:400;font-size:48px;text-align:center;color:#333;padding-top:65px}
+.count-content h1{font-weight:400;font-size:48px;text-align:center;color:#333;padding-top:65px}
+.count-content p{font-size:18px;text-align:center;color:#333;font-weight:300;padding:30px 8% 65px;line-height:1.4}
+.count-content ul li{float:left;width:25%;text-align:center}
+.count-content ul li h3{font-size:56px;color:#d4951f;font-weight:500;font-family:Roboto,sans-serif}
+
+.count-content p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.main-content-colm2 ul li h4,.main-content-colm3 h2{font-family:Lato,sans-serif}
+
+.count-content ul li:nth-child(2) h3{color:#96562b}
+.count-content ul li:nth-child(3) h3{color:#933d9b}
+.count-content ul li:nth-child(4) h3{color:#08a1cf}
+.count-content ul li span{font-size:14px;color:#333;font-weight:500;padding-top:20px;display:block}
+.flag-content ul{position:absolute;top:0;width:100%}
+.flag-content{position:relative;display:table;width:100%;margin-top:80px}
+.flag-content ul li h3{background-color:#c5c5c5;padding:13px 21px 0;display:table;color:#333;font-size:15px;position:relative;height:40px;font-weight:600;margin-left:-1px}
+.flag-content ul li abbr{display:table;color:#333;font-size:14px;padding-top:20px;padding-left:20px}
+.flag-content ul li a,.flag-content ul li h4{padding-top:10px;padding-left:20px;display:table}
+.flag-content ul li h4{color:#333;font-size:15px;font-weight:600}
+.flag-content .main ul li{width:13%}
+.flag-content ul li{float:left;display:table;border-left:1px solid #000;height:141px;position:relative}
+.flag-content ul li article{position:absolute;bottom:-30px;left:-14px}
+.flag-content ul li:nth-child(1){margin-left:7%;margin-top:2%;height:199px}
+.flag-content ul li:nth-child(2){margin-left:6%;margin-top:4%}
+.flag-content ul li:nth-child(3){margin-left:10%;margin-top:2%;height:111px}
+.flag-content ul li:nth-child(4){margin-left:6%;height:110px;margin-top:3%}
+
+.flag-content span{padding-top:8.5%;display:table;margin:0 auto}
+.flag-content span img{width:100%}
+.flag-content ul li h3:after{background:url(../images/side.png) no-repeat;content:"";height:40px;position:absolute;right:-18px;top:0;width:20px;background-size:20px auto}
+
+
+
+
+
+
+@media only screen and (min-width:1401px) and (max-width:1920px){
+
+    .flag-content span{
+        padding-top:7.5%
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:6.4%; 
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:4%
+    }
+
+
+.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 3px;
+}
+
+	
+}
+@media only screen and (min-width:1900px){
+.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 3px;
+}	
+}
+
+
+@media only screen and (min-width:1300px) and (max-width:1350px){
+    
+.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 3px;
+}
+    .flag-content span{
+        padding-top:8.5%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:9.4%;
+        margin-top:2.5%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:20.5%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:13%
+    }
+    .flag-content span img{
+        height:304px
+    }
+	
+}
+@media only screen and (min-width:1250px) and (max-width:1299px){
+	
+	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+    .flag-content span{
+        padding-top:9.1%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:7%
+    }
+    .flag-content ul li:nth-child(2),.flag-content ul li:nth-child(3),.flag-content ul li:nth-child(4){
+        margin-left:6%
+    }
+  
+    
+}
+@media only screen and (min-width:1250px) and (max-width:1280px){
+    /*.main{
+        width:100%;
+    }*/
+ .videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 3px;
+}
+}
+@media only screen and (min-width:1200px) and (max-width:1249px){
+    
+    .videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+
+    .flag-content span{
+        padding-top:10%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:10%;
+        margin-top:2.5%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:19%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:11.5%
+    }
+    .flag-content span img{
+        height:280px
+    }
+    .main-content-colm8 .main{
+        width:1180px
+    }
+    .main{
+        width:98%
+    }
+   
+}
+@media only screen and (min-width:1150px) and (max-width:1199px){
+	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+    .flag-content span{
+        padding-top:11%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:10%;
+        margin-top:3.2%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:13%;
+        margin-top:.5%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:11%;
+        margin-top:2%
+    }
+    .flag-content span img{
+        height:280px
+    }
+    .main-content-colm8 .main{
+        width:1140px
+    }
+    
+}
+@media only screen and (min-width:1100px) and (max-width:1149px){
+    	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+
+    
+    .flag-content span{
+        padding-top:12%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:10.5%;
+        margin-top:2.6%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:13%;
+        margin-top:.5%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:10%;
+        margin-top:2%
+    }
+    .flag-content span img{
+        height:256px
+    }
+    .main-content-colm8 .main{
+        width:1080px
+    }
+    
+}
+@media only screen and (min-width:1050px) and (max-width:1099px){
+    	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+
+    .flag-content span{
+        padding-top:12.5%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:10%;
+        margin-top:2.5%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:11.5%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:9%;
+        margin-top:1.5%
+    }
+    .flag-content span img{
+        height:245px
+    }
+    .main-content-colm8 .main{
+        width:1040px
+    }
+    
+    
+}
+@media only screen and (min-width:1050px) and (max-width:1199px){
+
+    	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+  
+    .other-notes-colm1 ul li,.placement-activities-colm3 li p{
+        min-height:170px
+    }
+    .mathematics-social-colm1 ul li{
+        min-height:145px
+    }
+    .search-bar{
+        position:absolute;
+        right:0
+    }
+    .header-main.inner-header .search-bar input:focus,.header-main.inner-header .search-bar input:hover,.search-bar input:hover{
+        background-color:#fff
+    }
+    .detail{
+        width:260px
+    }
+    .academics-hover-ul .tab-content.well{
+        padding-left:20px;
+        width:63%
+    }
+    .academics-hover-ul .tab-content.well ul li{
+        padding-right:3%
+    }
+    div.css_bar_graph ul.x_axis{
+        left:57px
+    }
+    div.css_bar_graph ul.x_axis li{
+        width:80px
+    }
+    div.css_bar_graph div.graph li.nr_1{
+        left:80px
+    }
+    div.css_bar_graph div.graph li.nr_2{
+        left:160px
+    }
+    div.css_bar_graph div.graph li.nr_3{
+        left:230px
+    }
+    div.css_bar_graph div.graph li.nr_4{
+        left:310px
+    }
+    div.css_bar_graph div.graph li.nr_5{
+        left:380px
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1049px){
+
+		.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+	
+    .flag-content span{
+        padding-top:13.4%;
+        text-align:center
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:2%;
+        margin-top:2.5%
+    }
+    .flag-content ul li:nth-child(2){
+        margin-left:2%
+    }
+    .flag-content ul li:nth-child(3){
+        margin-left:5%;
+        margin-top:1.5%
+    }
+    .flag-content span img{
+        height:245px
+    }
+    .main-content-colm8 .main{
+        width:960px
+    }
+    
+
+
+    .the-unison-group-colm1 ul li img,img.virtual-icon{
+        min-height:100%
+    }
+    .header-main.inner-header .main-menu ul li a,.header-main.inner-header.header-sticky.sticky .main-menu ul li a{
+        padding:10px
+    }
+    .inner-sec-colm1 h3,.inner-sec-colm1 p{
+        padding-right:0
+    }
+    .inner-sec-colm3 h2{
+        font-size:38px;
+        padding:35% 5% 0 7%
+    }
+    .the-unison-group-colm3 ul li span{
+        width:85%
+    }
+    .the-unison-group-colm1 h2{
+        font-size:40px;
+        padding:30% 5% 0
+    }
+    .the-unison-group-colm3 h2{
+        font-size:32px
+    }
+    .objectives-of-corporate-section nav span{
+        min-height:175px
+    }
+    .csr-sec-colm3 h2{
+        font-size:30px
+    }
+    .csr-sec-colm4 .resp-tabs-container ul li{
+        width:23.5%
+    }
+    .csr-sec-colm2 ul li{
+        width:49%
+    }
+    .board-of-governors-colm1 ul li{
+        min-height:200px;
+        width:21.4%;
+        margin-right:30px
+    }
+    .brandImgSection ul li{
+        width:18%
+    }
+    .csr-sec-colm4 .resp-tabs-container ul.csr-program-ul li{
+        min-height:330px
+    }
+    .excellent-placement-records-colm1 ul li{
+        width:23%
+    }
+    .student-facilities-colm1 ul li:nth-child(2){
+        min-height:440px;
+        margin-bottom:0
+    }
+    .sports-colm1-left ul li h3{
+        min-height:273px;
+        padding-right:8%
+    }
+    .sports-colm1-left.col-xs-12.col-sm-8.col-md-8 li img{
+        height:300px
+    }
+    .the-following{
+        min-height:357px
+    }
+    .the-following2 .the-following2-nav nav:nth-child(even){
+        padding-left:0
+    }
+    .the-following2 .the-following2-nav nav{
+        width:100%
+    }
+    .discipline-colm2 ul li{
+        width:23%
+    }
+    .vibrant-curriculum-ul ul li{
+        min-height:140px;
+        width:18%
+    }
+    .event-select-colm1 .event-select1 select,.event-select-colm1 input{
+        width:150px
+    }
+    .ltpanelfullwidth .grid:nth-child(4n+0){
+        margin-right:20px!important
+    }
+    .withdrawal-cancellation-colm4 ul li{
+        min-height:250px
+    }
+    .admissions-about-colm1 h3{
+        padding-bottom:10px;
+        font-size:15px;
+        padding-right:0
+    }
+    .why-study-india-colm1 ul li{
+        min-height:190px
+    }
+    .other-notes-colm1 ul li,.placement-activities-colm3 li p{
+        min-height:170px
+    }
+    .career-department-colm2 ul li{
+        min-height:430px;
+        width:22.5%
+    }
+    ol.our-cafeterias-section-prog nav h3{
+        padding:30px 30px 20px
+    }
+    .guiding_principles-colm4 ul.resp-tabs-list{
+        padding:0 20%
+    }
+    .entrepreneurship-development-colm2 ul li{
+        width:23%
+    }
+    .vtcl_sec .entrepreneurship-development-colm2 .list_fild li{
+        min-height:170px
+    }
+    .guidelines-for-prevention-colm1 ul li span{
+        width:10%
+    }
+    .guidelines-colm1{
+        width:90%
+    }
+    .career-overview .inner-sec-colm4 h2,.career-overview .inner-sec-colm5 h2{
+        font-size:32px
+    }
+    .col-8.career-form .row-4 .col-6 ul li .apply-submit .form-btn1,.col-8.career-form .row-4 .col-6 ul li .form-btn{
+        padding:8px 22px!important
+    }
+    .detail{
+        width:270px
+    }
+    .detail-count li{
+        margin-right:3%
+    }
+    .academics-hover-ul .tab-content.well{
+        padding-left:20px;
+        width:63%
+    }
+    .academics-hover-ul .tab-content.well ul li{
+        padding-right:3%
+    }
+
+.logo{    padding-right: 50px;}
+.main-menu ul li a {padding: 10px 8px;font-size: 14px;}   
+
+}
+@media only screen and (max-width:1366px)
+{
+ /*.header-main.inner-header .main-menu ul li a {padding: 10px 0px 10px 22px!important;}*/
+ 
+ .videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 3px;
+}
+}
+
+@media only screen and (max-width:1240px){
+    .main{
+        width:98%
+    }
+    .videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+    
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+    .count-content ul li h3{
+        font-size:40px
+    }
+    .flag-content{
+        margin-top:60px
+    }
+    .flag-content span{
+        padding-top:19%
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:3%;
+        margin-top:0
+    }
+    .flag-content ul li h3{
+        font-size:13px;
+        padding:12px 15px 0;
+        height:34px
+    }
+    .flag-content ul li h3::after{
+        height:40px;
+        right:-19px
+    }
+    .flag-content ul li{
+        width:21%
+    }
+    .flag-content ul li:first-child h3::after{
+        height:34px
+    }
+    .flag-content ul li:nth-child(2),.flag-content ul li:nth-child(3){
+        margin-left:3%
+    }
+    .flag-content ul{
+        bottom:48%;
+        top:auto
+    }
+    
+    .count-content p{
+        padding:30px 2% 50px
+    }
+    
+    .detail-count li{
+        margin-right:0;
+        width:50%
+    }
+    .detail{
+        width:300px
+    }
+
+}
+@media only screen and (max-width:767px){
+
+	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+	
+.main-content-a8 h2 {
+    font-weight: 500;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.main-content-a8 .sl-content .test-content h3 {
+  color: #292b3a;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-weight: 500
+}
+.main-content-a8 .sl-content .test-content p {
+	color: #333;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    padding-top: 15px;
+}
+
+    .flag-content ul li:nth-child(2),.flag-content ul li:nth-child(3),.flag-content ul li:nth-child(4){
+        height:100%;
+        margin-left:auto;
+        margin-top:0
+    }
+    .flag-content ul,.header-main.inner-header,.header-main.inner-header.header-sticky.sticky{
+        position:relative
+    }
+    
+    
+    
+    .count-content p{
+           padding: 30px 0 15px!important;
+    }
+   
+    .count-content ul li{
+        padding-bottom:25px;
+        width:100%
+    }
+    .count-content ul li span{
+        padding-top:15px
+    }
+    .flag-content ul li{
+        border-left:none;
+        height:100%;
+        float:none;
+        display:table;
+        margin:0 auto 20px
+    }
+    .flag-content ul li article{
+        display:none
+    }
+    .flag-content ul li:nth-child(1){
+        margin-left:auto;
+        margin-top:0;
+		height: auto;
+    }
+    .flag-content{
+        margin-top:30px;
+        margin-bottom:30px
+    }
+    .flag-content ul li h3{
+        width:246px
+    }
+    .flag-content span{
+        padding-top:0
+    }
+
+    .main-content-colm8 .main{
+        width:460px
+    }
+    .main-content-colm8 h2.resp-accordion{
+        font-size:22px!important
+    }
+    .main-content-colm8 .resp-tab-content .testimonials-content{
+        width:100%;
+        padding:5% 0 0 5px
+    }
+    .main-content-colm8 .owl-prev{
+        margin-bottom:20px
+    }
+    .main-content-colm8 .resp-tab-content .item span{
+        display:table
+    }
+    .csr-sec-colm3 h2 br,.csr-sec-colm4 ul.resp-tabs-list,.guiding_principles-colm2 h2 br,.guiding_principles-colm4 ul.resp-tabs-list,.inner-sec-colm3 h2 br,.placement-activities-colm3 li .line-1,.the-unison-group-colm1 h2 br,.the-unison-group-colm3 h2 br{
+        display:none
+    }
+    .main-content-colm8 h2.resp-tab-active{
+        padding:10px 15px
+    }
+    .main-content-colm8{
+        padding-top:70px
+    }
+    .main-content-colm8 #horizontalTab-first-block{
+        padding-top:30px
+    }
+	
+    .flag-content .main{
+        order:3
+    }
+    .flag-content ol{
+        padding-bottom:0;
+        margin-top:0
+    }
+    .flag-content ol li{
+        padding:0 20px
+    }
+    
+        
+    .accomodation-colm3,.accomodation-colm4,.mess-facilities-colm1{
+        padding-top:20px
+    }
+    .mess-facilities-colm2 ul li h2,.mess-facilities-colm3 ul li h2,.mess-facilities-colm4 ul li h2{
+        padding:40px;
+        min-height:100%;
+        font-size:34px
+    }
+    .the-following{
+        padding:30px;
+        min-height:100%
+    }
+    .mess-facilities-colm2,.mess-facilities-colm3,.mess-facilities-colm4{
+        padding-top:20px
+    }
+    .the-following2{
+        min-height:100%
+    }
+    .the-following2 .the-following2-nav nav{
+        width:100%
+    }
+    .the-following2 .the-following2-nav nav:nth-child(even){
+        padding-left:0
+    }
+    .mess-facilities-colm1-left.col-xs-12.col-sm-8.col-md-8 ul li h3{
+        padding:30px;
+        min-height:100%;
+        word-break:break-all
+    }
+    .admissions-about-colm1,.discipline-colm2,.discipline-colm3,.entrepreneur-development-colm2,.event-colm1,.faculty-achievements-colm1,.hostel-colm1,.vibrant-curriculum-ul{
+        padding-top:20px
+    }
+    .apply-detail-input{
+        width:100%!important;
+        margin-top:10px!important;
+        margin-right:0!important
+    }
+    .discipline-colm2 ul li,.entrepreneur-development-colm2 ul li{
+        min-height:100%;
+        width:100%;
+        padding:20px
+    }
+    .event-select-colm1{
+        float:left;
+        margin-top:30px;
+        margin-left:-15px
+    }
+    .event-select-colm1 .event-select2{
+        float:none;
+        margin-right:0;
+        margin-bottom:10px;
+        width:230px
+    }
+    .event-select-colm1 .event-select3{
+        float:left;
+        width:230px
+    }
+    .event-select-colm1 .event-select3,.event-select-colm1 input{
+        width:230px
+    }
+    .event-select-colm1 .event-select1{
+        float:none;
+        margin-right:0;
+        width:230px;
+        margin-bottom:10px
+    }
+    .admissions-about-colm1-left ul li,.placement-activities-colm2 ul li{
+        margin-bottom:30px
+    }
+    .event-select-colm1 .event-select1 select{
+        width:230px
+    }
+    .detail{
+        width:100%!important;
+        margin-top:20px!important
+    }
+    .hostel-colm1 ul li{
+        width:100%;
+        padding-right:0
+    }
+    .ltpanelfullwidth .grid:nth-child(4n+0){
+        margin-right:20px!important
+    }
+    div#no-more-tables22{
+        width:250px;
+        overflow:auto;
+        height:auto;
+        min-width:100%
+    }
+    .entrepreneurship-development-colm2.withdrawal-cancellation-colm4{
+        padding-bottom:30px
+    }
+    .inner-sec-main h2{
+        font-size:20px;
+        word-break:break-word
+    }
+    .withdrawal-cancellation-colm1 h3{
+        font-size:20px
+    }
+    .admissions-about-colm2 h5{
+        padding:30px
+    }
+    .civil-engineering-colm2 ul li,.other-notes-colm1 ul li{
+        width:100%;
+        padding:20px;
+        min-height:100%
+    }
+    .admissions-about-colm2,.research-university-colm1{
+        padding-top:20px
+    }
+    .chairman-text{
+        min-height:100%
+    }
+    .facilities-colm2-bg{
+        background-color:#d9f5fd;
+        min-height:100%
+    }
+    .placement-activities-colm3 li p{
+        min-height:100%
+    }
+    .placement-activities-colm3 li{
+        margin-bottom:25px;
+        border-bottom:4px solid #cbcd00;
+        padding-bottom:20px
+    }
+    .placement-activities-colm1{
+        margin-top:20px
+    }
+    .career-department-colm2 ul li{
+        min-height:100%;
+        display:table;
+        margin-right:0;
+        width:300px;
+        float:none;
+        max-width:100%
+    }
+    .examination-calendar-colm1.industrial-visits-colm2{
+        padding-top:50px
+    }
+    .department-architecture-colm2 ul li{
+        min-height:100%;
+        padding:20px;
+        width:100%;
+        word-break:break-all
+    }
+    .achievements-row1 ul li{
+        min-height:100%
+    }
+    ol.our-cafeterias-section-prog nav:nth-child(3) .our-cafeterias-main21{
+        margin-bottom:30px
+    }
+    ol.our-cafeterias-section-prog nav h3{
+        font-size:20px;
+        padding:20px
+    }
+    .department-colm2-bg,.sports-colm41-bg,.unison-group-bg{
+        padding:30px;
+        min-height:100%
+    }
+    .faculty-achievements-colm1 .panel-collapse ul li abbr{
+        width:99%
+    }
+    .mathematics-social-colm1 ul li{
+        width:100%;
+        min-height:100%;
+        padding:20px
+    }
+    .sports-colm4-bg{
+        min-height:100%;
+        margin-bottom:0
+    }
+    .vtcl_sec .entrepreneurship-development-colm2 .list_fild li{
+        min-height:100%;
+        width:100%;
+        margin-right:0;
+        padding:20px
+    }
+    .vtcl_sec .entrepreneurship-development-colm2 .list_fild li:nth-child(3n-0){
+        margin-right:0
+    }
+    .sports-colm2 li,.the-unison-group-colm2 li{
+        margin-bottom:20px
+    }
+    .duration-colm-bg,.program-detail-colm6 .fee-structure,.program-detail-colm6 .fee-structure2,.program-detail-colm6 .fee-structure3{
+        margin-bottom:30px
+    }
+    .the-unison-group-colm2{
+        padding-top:20px
+    }
+    .examination-calendar-colm1.central-workshop-table div#no-more-tables td{
+        padding-left:10px
+    }
+    .central-workshop-colm1 ul li span{
+        left:15px;
+        right:auto
+    }
+    .examination-calendar-colm1.central-workshop-table div#no-more-tables{
+        min-height:100%
+    }
+    .guidelines-for-prevention-colm1 ul li span{
+        border-right:none;
+        float:none;
+        padding:10px 30px 10px 0;
+        width:auto;
+        border-bottom:1px solid #cc0;
+        display:table
+    }
+    .guidelines-colm1{
+        padding:10px 30px 10px 0;
+        width:100%
+    }
+    .program-detail-right-menu{
+        float:left;
+        width:300px;
+        padding:20px 20px 50px;
+        margin-left:15px;
+        border-bottom:1px solid #e7e7e7
+    }
+    .admission-capcha2-right,.adress-bg,.event-select-colm1.test-select,.name-text2{
+        margin-left:0
+    }
+    .program-detail-colm1{
+        padding-top:20px
+    }
+    .admission-procedure-colm1-bg,.duration-colm-bg{
+        padding:30px;
+        min-height:100%
+    }
+    .admission-procedure-colm1-bg ul{
+        width:100%;
+        float:left;
+        border-right:none;
+        padding-right:0
+    }
+    .admission-procedure-colm1-bg ul:last-child{
+        padding-right:0;
+        padding-left:0;
+        padding-top:20px
+    }
+    .program-detail-colm7 ul li{
+        display:block;
+        margin-bottom:20px;
+        float:none;
+        width:260px;
+        padding:0 0 15px;
+        border-bottom:2px solid #0098db;
+        border-right:none
+    }
+    .program-detail-colm1 ul li{
+        margin-bottom:30px
+    }
+    .program-detail-right-menu ul li{
+        margin-bottom:0
+    }
+    .hostel-facilities-colm2 li,.hostel-facilities-colm3 li,.hostel-facilities-colm3.colm3-power .security-colm3-ol,.pay-now-btn,.the-unison-group-colm1 li{
+        margin-bottom:30px
+    }
+    .the-unison-group-colm3{
+        padding-top:20px
+    }
+    .chairman-name h2{
+        font-size:30px
+    }
+    .chairman-name-full h5{
+        width:100%;
+        font-size:25px
+    }
+    .chairman-name-full{
+        padding:0
+    }
+    .chairman-name-full h5:before{
+        top:0;
+        right:0
+    }
+    .chairman-name-full h5:after{
+        top:0
+    }
+    .chairman-name-left{
+        width:100%;
+        margin-bottom:30px
+    }
+    .chairman-name-right{
+        width:100%
+    }
+    .chairman-name-full-name{
+        padding:30px 0 0
+    }
+    .hostel-facilities-colm2,.hostel-facilities-colm3{
+        padding-top:20px
+    }
+    .hostel-facilities-colm3 li.col-xs-12.col-sm-12.col-md-8{
+        padding:0
+    }
+    .testimonials-main ul li{
+        display:table;
+        width:auto;
+        float:none;
+        margin-right:0
+    }
+    .entrepreneurship-development-colm2.withdrawal-cancellation-colm3.career-department-colm1{
+        padding-top:20px
+    }
+    .strip{
+        display:table;
+        width:100%;
+        position:fixed;
+        z-index:99999;
+        bottom:0;
+        background-color:#105196
+    }
+    .ftr-bottom-right{
+        float:left;
+        padding-top:8px;
+        padding-bottom:10px
+    }
+    .guiding_principles-colm4{
+        margin-top:30px
+    }
+    .pay-now-btn{
+        float:left;
+        margin-top:10px;
+        display:table;
+        width:100%
+    }
+    .pay-now-btn a{
+        display:table
+    }
+    .adress-bg{
+        position:relative;
+        top:20px;
+        min-height:100%;
+        width:100%;
+        right:0;
+        left:0
+    }
+    .adress-bg p{
+        text-align:left
+    }
+    .contact-page iframe{
+        height:100%
+    }
+    .detail-count li{
+        margin-right:0;
+        width:100%
+    }
+    .entrepreneurship-development-colm2.withdrawal-cancellation-colm3.guiding-rinciples-row1-ul li{
+        min-height:100%
+    }
+    .guiding_principles-colm2 li .core-values-main p{
+        font-size:14px;
+        padding-right:0;
+        text-align:left
+    }
+    .guiding_principles-colm2{
+        padding-top:30px
+    }
+    .search-bar input:focus,.search-bar input:hover{
+        width:230px
+    }
+    .event-select-colm1.test-select .event-select4{
+        margin-right:0;
+        margin-bottom:10px;
+        width:230px;
+        float:none
+    }
+    .financial-aid-colm1 table tr{
+        background-color:initial
+    }
+    .faculty-achievements-colm1 div#no-more-tables{
+        max-height:100%; width:100%;
+    }
+    .registration-admission-left,.registration-admission-right{
+        width:100%
+    }
+    .registration-admission-right input{
+        width:88%
+    }
+    input#ImageButton1{
+        width:auto
+    }
+    .registration-admission-right select{
+        width:93%
+    }
+    registration-admission-capcha1{
+        float:none;
+        margin-left:0;
+        width:100%;
+        padding-top:10px;
+        display:table
+    }
+    .admission-capcha2-right{
+        width:95%;
+        float:none;
+        margin-top:10px
+    }
+	.social-call{    bottom: 33px;}
+	.social-call ul li a{padding: 8px 0;}
+	.social-call ul li{ width:25%;}
+	.social-call ul {  max-width:100%; float:none; margin-right:auto;}
+	.mobile_pages .placement_list {margin-bottom:30px}
+	.mobile_pages .placement_list li.mobile_hide{display:none;}
+	.mobile_pages .placement-calendar-colm1{display:block;}
+	.mobile_pages .placement_list li{display:block;border-bottom:1px solid #eaeaea;padding:10px 0px;margin:0;}
+	.mobile_pages .placement_list li strong{color:#000}
+.header-main.mobile.header-sticky.sticky{    padding: 10px 0;}
+.header-main.mobile.header-sticky .logo a img { width: 40px;}  
+}
+@media only screen and (max-width:479px){
+	.main-content-phone {
+ 
+    top: -20px;
+  
+}
+.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+
+
+
+
+
+	.content-colm1-right span.video-virtual-text {
+    width: 75%;  
+}
+	.social-call ul li a{font-size: 11px;}
+	.social-call ul li{    width: 22%;}
+	.social-call ul li:last-child{    width: 28%;}
+    .event-select-colm1.test-select .event-select4,.event-select-colm1.test-select .event-select4 select{
+        width:180px
+    }
+    .call-top li:last-child{
+        margin-right:auto
+    }
+    .call-top li{
+        width:130px;
+        padding:7px 10px;
+        text-align:center;
+        margin-right:5px;
+        margin-bottom:5px
+    }
+    .call-top li,.call-top li.enquiry-call a{
+        font-size:13px
+    }
+    .call-top li img{
+        width:21px;
+        padding-right:5px;
+        display:none
+    }
+    .admission-btn a{
+        width:130px;
+        padding:10px 5px;
+        font-size:9px
+    }
+    .search-bar input[type=search]{
+        width:196px;
+        padding:4px 6px;
+        background:url(../images/search-icon-mobile.png) 95% 7px no-repeat rgba(255,255,255,0);
+        background-size:15px
+    }
+    .search-bar input[type=search]:focus{
+        width:196px;
+        padding:4px 6px;
+        background-size:15px
+    }
+    .search-bar input:focus,.search-bar input:hover{
+        width:196px
+    }
+    .header-top-right{
+        padding-bottom:7px;
+        padding-top:2px
+    }
+    .header-sticky.sticky .logo{
+        padding-top:0px;
+		margin-right: 10px;
+    }
+	.header-sticky.sticky .logo24{display:none!important;
+        padding-top:5px
+    }
+    .carousel-caption h2{
+        font-size:18px
+    }
+    .carousel-caption h3{
+        padding-top:10px;
+        font-size:14px
+    }
+    .content-colm1-left .resp-tab-content ul li .nrws-description{
+        width:70%
+    }
+    .content-colm1-left h2.resp-accordion{
+        padding:10px 15px
+    }
+    .content-colm1-right span.video-virtual-icon{
+        left:0;
+    }
+    .count-content h2{
+        padding-top:40px;
+        font-size:35px
+    }
+    .main-content-colm2 h2,.main-content-colm3 h2{
+        font-size:28px
+    }
+    .main-content-colm2{
+        padding-top:60px;
+        padding-bottom:60px
+    }
+    .main-content-colm3{
+        padding-bottom:70px;
+        padding-top:50px
+    }
+    .main-content-colm3 p{
+        padding-bottom:20px
+    }
+    .main-content-colm8{
+        padding-top:60px;
+        padding-bottom:60px
+    }
+    .main-content-colm8 .main{
+        width:300px
+    }
+    .footer{
+        padding:0px 0 30px
+    }
+    .main-content-colm6{
+        padding-top:50px;
+        padding-bottom:50px
+    }
+    .main-content-colm6 h3{
+        margin-bottom:10px;
+        float:none
+    }
+    .banner .carousel-caption h2{
+        font-size:18px;
+        padding-bottom:10px
+    }
+    .banner .carousel-caption h3{
+        padding-top:10px;
+        font-size:14px
+    }
+    .main-content-colm2 ul li h4{
+        font-size:20px
+    }
+    .header-main.inner-header .search-bar input{
+        width:116px;
+        padding:4px 6px;
+        background:url(../images/search-icon-mobile.png) 95% 7px no-repeat rgba(255,255,255,0);
+        background-size:15px
+    }
+    .header-sticky.sticky .header{
+        margin:0 15px 5px
+    }
+    .header-main.inner-header.header-sticky.sticky .logo a img{
+        width:55px
+    }
+    .event-select-colm1 .event-select1,.event-select-colm1 .event-select1 select,.event-select-colm1 .event-select2,.event-select-colm1 .event-select3,.event-select-colm1 input{
+        width:180px
+    }
+    .header-main.inner-header.header-sticky.sticky .logo{
+        padding-bottom:8px
+    }
+    .the-unison-group-colm1 h2,.the-unison-group-colm3 h2{
+        font-size:28px
+    }
+    .event-select-colm1 .event-select3{
+        float:left;
+        width:180px
+    }
+    .event-select-colm1 a{
+        margin-left:10px
+    }
+    #no-more-tables td{
+        padding-left:6px
+    }
+    .career-department-colm2 ul li{
+        width:100%
+    }
+    .vtcl_sec .arar_sec h3{
+        font-size:20px
+    }
+    .program-detail-right-menu{
+        width:260px
+    }
+    .program-detail-colm2 ul li abbr{
+        width:93%
+    }
+    .program-select-colm1 select{
+        width:220px;
+        margin-bottom:10px
+    }
+    .programs-all-colm2-left ul h3{
+        font-size:18px
+    }
+    #mobile-menu{
+        width:260px!important
+    }
+    .guiding_principles-colm2 li .core-values-main abbr{
+        position:relative;
+        right:0;
+        float:right
+    }
+    .text{
+        left:0
+    }
+    dl{
+        padding:0
+    }
+    .percentage{
+        width:80%
+    }
+    ul.bar-graph-main-ul{
+        width:250px;
+        overflow:auto;
+        min-width:100%
+    }
+    a.cn_link{
+        right:-67px;
+        top:405px;
+        font-size:14px
+    } 
+.main-content-colm12 {
+    display: block;
+    width: 100%;
+    background-color: #d0f1f7;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: relative; 
+}
+.my1 ul li {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+}
+@media only screen and (max-width:767px){
+  	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+  
+    
+    
+.new_vid1 span{width:100%; display:inline-block;}
+.stream li .section-thumb img {width: 100%;}
+.stream li {width: 100%!important;}
+#owl-demo .item img {padding: 50px; width:100%!important;}
+.board-of-governors-colm1 ul li {min-height: auto;}
+.mission {padding: 20px 10px;}
+	
+.board-of-governors-colm1 ul {
+   
+    padding-top: 0;
+  
+}
+.count-content h1 {font-size: 38px;
+padding-top: 40px;
+}
+	.main-content-colm10 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.main-content-colm10 h2 {
+    font-size: 18px;
+   margin-bottom: 10px;
+}
+
+footer .newsletter-ft h4 {
+    font-size: 16px;
+	    margin-top: 10px;
+}
+.main-content-colm8 .view-all-btn13 {bottom: 15px;}
+.copy-r {margin-top: 20px;}
+.copy-rights .pull-right {
+    float: inherit!important;
+    text-align: center;
+    margin: 10px auto;
+    width: 183px;
+}
+
+.prog-sec-main{width:100%!important;}
+.prog-sec-main .banner-dep-count{padding: 20px 15px!important;}
+
+	.cource-popup #divspecialization .list_li li.newli{ width:100%;}
+	.program-detail-colm5 {
+    padding-top: 0;
+   
+}
+	#feedback1.show {
+    right: 0;
+       width: 324px;
+}
+	table.hiretable ul li {
+    width: 100%;
+    display: inline-block;
+}
+	.my1 ul li {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.values ul li {
+    width: 100%;
+    float: none; 
+}
+.guiding_principles-colm4 .resp-tab-content {
+    border: 1px solid #c1c1c1;
+      padding: 10px; 
+}
+.cur-main .guiding_principles-colm4 .resp-tab-content{padding:0px;}
+
+
+.security-colm3-ol {
+    background-color: #f0f0f0;
+    position: relative;
+    min-height: 196px;
+    padding-right: 15%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+.logo_img{ width: 66px; height: 54px; margin-bottom: 8px;}
+.inner-header .logo a img { margin-bottom: 10px;}
+.logo {padding-top: 0;}
+
+}
+@media only screen and (max-width:320px){
+	.text_box_micro p {
+    line-height: inherit!important;
+}
+
+.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+
+
+
+	 p {
+    font-size: 13px;
+   
+}
+	.footer .ft-links h4 {
+    font-size: 16px;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+    font-family: Lato, sans-serif;
+    margin-top: 10px;
+    line-height: 20px;
+}
+	#feedback1.show {
+    right: 0;
+    width:250px;
+}
+	.kulgeet p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.facilities-security-colm3-bg {
+    background-color: #0097db;
+    padding: 6%;
+    min-height: 400px;
+    position: relative;
+}
+	
+.my1 ul li {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+	.content-colm1-right span.video-virtual-text {
+    width: 75%;
+     bottom: 45px;  
+}
+/*.dit_st .footer .ftr-colm2{
+    width:17%;
+    padding:0 3%
+}*/
+}
+@media only screen and (max-width: 479px){
+    	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+
+.training-development-department-colm1 ul li {
+    width: 100%;
+}}
+@media only screen and (max-width: 767px){
+     	.videotour {
+    color: #fff!important;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    margin-left: -15px;
+    cursor: pointer;
+    margin-top: -35px;
+    font-size: 38px;
+    background: #E86A33;
+    padding-left: 4px;
+}
+a.logo_qs.logo_qs2 {
+    background: url(../images/QS_University_Diamond_dark2.gif) left center no-repeat;
+width: 86px; height: 36px;     background-size: 100%;} 
+
+.wrapper .prog-sec-main .inner-sec-colm1.dep-main { margin-top: 73px;}
+.wrapper .prog-sec-main .col-xs-5, .wrapper .prog-sec-main .col-xs-7 {width: 100%;}
+.wrapper .dep-main .header-top{  display: table;height: auto;}
+.wrapper .dep-main .header-top-right .menu-top { margin-right: 0;display: block;}
+.wrapper .dep-main .menu-top ul li a{    padding: 10px 3px 5px;    font-size: 13px; display: inline-block;}
+.wrapper .dep-main .menu-top ul li:hover a { border-bottom: 0;}
+
+
+.prog-fee-block .guiding_principles-colm4 ul.resp-tabs-list li{display:none;}
+.prog-fee-block .guiding_principles-colm4 .resp-tab-content{border:0px;}
+
+	.footer .ft-links h4 {
+    font-size: 16px;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+    font-family: Lato, sans-serif;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.training-development-department-colm1 ul li {
+    display: table;
+    margin-right: 0;
+    float: none;
+    max-width: 100%;
+}
+.the-following2.sybus{margin: 30px 2%;}
+.training-development-department-colm1 p {
+    padding-right: 0px;
+}
+
+.inner-sec-main .iqac-sec .mission {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 40px 0px;
+    color: #000;
+    display: table;
+}
+.inrf-sec .bgcolor-blue{margin-bottom:20px;}
+.social-media{padding-top:60px;}
+.newsletter-ft .news-l p{text-align:left;}
+.copy-r {
+    color: #a5a5a5;
+    font-size: 12px;
+    position: absolute;
+	width: 300px;
+    text-align: center;
+}
+.copy-links{padding-top: 0px;
+    text-align: center;
+    width: 267px;
+    margin: 0 auto;
+    float: none !important;
+}
+.main-div{max-width: 100%;
+    padding: 15px; 
+	margin: 10px;
+	}
+.tab-main1 .tabcontent h3 {font-size: 18px;}
+#blog-landing li.rowe{display:contents!important; border: 1px solid #ccc!important;}
+.inner-sec-main #blog-landing li img{margin-top:20px;}
+.event-colm2.news-right {width: 100%;}
+.event-colm2{padding-top:0px;}
+.prog-modal .btn{width:100%; margin-top:5px;}
+
+
+.prog-modal .modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 0px;
+}
+.prog-fee-block .modal-lg {
+    width: 100%;
+    max-width: 94%;
+    margin: 30px auto;
+    padding: 0;
+}
+.prog-fee-block .modal button.close {
+    top: 0;
+    right: 0; margin:0;}
+.inner-sec-h2.dip-head h1{    font-size: 18px;  padding: 0px 0 0; line-height: 1.4;    float: none;}
+.inner-sec-h2.dip-head ul {padding-top: 0px;margin-right: 15px; float: none;    position: relative;padding: 0px;}
+.inner-sec-h2.dip-head {padding-bottom: 0px;}
+.faculty-department.department-detail .mm-toggle.hamburger {
+    top: -20px;
+}
+.dep-main.inner-header.header-sticky {
+    padding-bottom: 0px;
+}
+.menu_head2 h1{    font-size: 18px;}
+.header-sticky.sticky .logo a {float: left;}
+.header-main.mobile.header-sticky .logo a.logo_qs img { width: 60px;}
+.header-main.mobile.header-sticky .logo a.logo_qs { padding-top: 4px;}
+.header-main.inner-header .logo a.logo_qs img {width: 110px!important;}
+.header-main.inner-header .logo {
+    padding-right: 0px;
+}
+}
