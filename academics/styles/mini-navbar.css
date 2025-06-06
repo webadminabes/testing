@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Canela Deck Web";
+    src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Trial";
+    src: url("/font/GT-America-Compressed-Light-Trial.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Bold";
+    src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Medium";
+    src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Regular";
+    src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/font/Albertus-Medium.ttf") format("truetype"); 
+  }
+  *{
+    box-sizing: border-box;
+  }
+.mini-nav-link {
+    color: #545454;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  .mini-nav-bar {
+    text-align: justify;
+    font-family: "GT America Medium";
+    font-size: 15px;
+    font-style: normal;
+    /* line-height: 150%; */
+    margin: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 8px;
+  }
+
+  table {
+    border-collapse: collapse;
+  
+    width: 100%;
+  }
+   .table-header {
+    background-color: #000;
+  }
+  
+   th {
+    background-color: #000;
+    color: #fff;
+    font-family: "GT America Regular";
+    font-size: 1.02rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 12px 12px 12px 12px;
+    text-align: start;
+    line-height: 24px;
+  }
+   .row-border-bottom {
+    border-bottom: 1px solid #3c3c3c;
+  }
+   td {
+    padding: 15px 16px 0px 16px;
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 1.02rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+  }
+  .table-serial-number{
+    padding: 12px 0px 12px 10px;
+  }

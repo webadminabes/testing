@@ -1,0 +1,466 @@
+@font-face {
+    font-family: "GT America Regular";
+    src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Albertus-Medium.ttf') format('truetype');
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(243, 244, 244);
+}
+
+.header_section {
+    width: 100%;
+    position: relative;
+}
+
+.header_content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.header_content .background-img {
+    width: 100%;
+    height: auto;
+}
+
+.header_content h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: "Albertus Medium";
+    letter-spacing: 0.1px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7rem;
+}
+
+.section {
+    display: flex;
+    padding: 2rem 7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+}
+
+
+
+.header-content {
+    font-family: "Albertus Medium";
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.valueCourse-description {
+    color: #000;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 1.11rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    align-self: stretch;
+    padding: 0rem 7rem 0rem 7rem;
+}
+
+.value-training-container {
+    padding: 0rem 7rem 2rem 7rem;
+}
+
+.value-training-container .value-training-heading h2 {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 2rem 0rem;
+}
+
+.chevron-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.chevron-icons #left,
+#right {
+    border: 1px solid #000;
+    padding: 10px 16px;
+    font-size: 22px;
+    color: #373737;
+    border-radius: 50%;
+    transition: 0.6s ease;
+    cursor: pointer;
+    background-color: #373737;
+    color: #fff;
+
+}
+
+.nation-header-container p {
+    margin-bottom: 4rem;
+
+}
+
+.nation-container center h2 {
+    font-size: 1rem;
+    font-weight: 200;
+
+}
+
+.divider-white {
+    border: 2px solid #fff;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.divider-black {
+    border: 2px solid #000;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.heading {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-family: "Albertus Medium";
+    margin-bottom: 1.5rem;
+}
+
+.consultancy-projects-section {
+    background-color: #151514;
+    color: #fff;
+    padding: 4rem 7rem;
+}
+
+.consultancy-projects-container {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+
+}
+
+.consultancy-projects-content {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.consultancy-projects-content p {
+    color: #fff;
+    text-align: justify;
+    font-family: "Albertus Medium";
+    font-size: 24px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.consultancy-projects-image {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.consultancy-projects-image img {
+    width: 100%;
+    height: auto;
+}
+
+.link-item-bg-white {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.link-item-bg-white span {
+    color: #000;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.p-arrow-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recognition-section {
+    margin-left: 7rem;
+    /* width: 80%; */
+    overflow: hidden;
+}
+
+.recognition-container {
+    box-sizing: border-box;
+    /* margin: 32px; */
+    /* padding-left: 72px; */
+    padding-bottom: 1rem;
+    /* margin-right: 0;*/
+    overflow: visible;
+
+    /* padding-right: 72px; */
+}
+
+.recognition-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /*display: flex;
+    gap: 20px; */
+
+    display: flex;
+
+    gap: 15px;
+    /* width: 100%; */
+
+    transition: transform 1s ease-in-out;
+
+}
+
+.recognition-container::-webkit-scrollbar {
+    display: none;
+}
+
+.recognition-images {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.recognition-images::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 42.71%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+
+.recognition-description {
+    bottom: 1rem;
+    left: 1rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.recognition-description h2 {
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+
+
+}
+
+.recognition-description span {
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.recognition-content div img {
+    height: 500px;
+    width: 720px;
+    object-fit: cover;
+}
+
+.divider-white {
+    border: 2px solid #fff;
+    margin-top: 0;
+  }
+  
+.nation-section {
+    color: #fff;
+    background-color: #151514;
+   padding: 2rem 7rem;
+}
+
+.nation-header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* text-align: justify; */
+    align-items: center;
+}
+
+.nation-header-container h2 {
+    font-size: 2.9rem;
+    font-family: "Albertus Medium";
+    font-weight: 400;
+    padding-top: 0px;
+}
+
+.nation-header-container p {
+    color: #fff;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 80px;
+}
+
+.nation-content {
+    margin-top: 48px;
+    width: 100%;
+    max-height: 680px;
+}
+
+#nation-bottom-text h2{
+    text-align: center;
+    color: white;
+    font-family: "Albertus Medium";
+}
+/* Mobile changes */
+.nation-container #hr-mob{
+    display: none;
+}
+
+
+@media (max-width: 450px) {
+    :root {
+      --heading-size: 2rem;
+    }
+
+    .header_content .background-img{
+        height: 40vh;
+    }
+    .header_content h1{
+        font-size: 2.5rem;
+    }
+    .section{
+        padding: 30px 20px;
+    }
+    .header-content{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 1.3;
+        text-align: justify;
+    }
+    .consultancy-projects-section{
+        padding: 30px 20px;
+    }
+    .consultancy-projects-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .consultancy-projects-image{
+        width: 100%;
+        order: 1;
+        margin-top: 3rem;
+    }
+    .consultancy-projects-content{
+        width: 100%;
+        order: 2;
+    }
+    .consultancy-projects-content p{
+        font-size: 24px;
+        line-height: 1.3;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    .link-item-bg-white{
+        display: none;
+    }
+
+    /* International Recognition section */
+    .recognition-section{
+        margin-left: 0;
+        padding: 30px 20px;
+    }
+    .heading h2{
+        font-size: var(--heading-size);
+        margin-bottom: 10px;
+    }
+    .recognition-section hr{
+        border: 2px solid black;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+    .recognition-content {
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+    
+
+    /* Going Forward Section */
+    .nation-section{
+        padding: 30px 20px;
+    }
+    .nation-container #hr-deks{
+        display: none;
+    }
+    .nation-container #hr-mob{
+        display: block;
+        width: 100%;
+    }
+    .nation-header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nation-header-container h2{
+        font-size: var(--heading-size);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nation-header-container p{
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 1.3;
+        text-align: justify;
+    }
+    #nation-bottom-text h2{
+        font-size: 24px;
+        line-height:1.3;
+        text-align: justify;
+    }
+
+}

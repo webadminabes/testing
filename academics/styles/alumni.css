@@ -1,0 +1,1450 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("../font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Canela Deck Web";
+    src: url("../font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Trial";
+    src: url("../font/GT-America-Compressed-Light-Trial.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Bold";
+    src: url("../font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Medium";
+    src: url("../font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Regular";
+    src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/Albertus-Medium.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    scroll-behavior: smooth;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+  }
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/dyi2eiqum/image/upload/q_auto,f_auto,w_1080/v1717835358/11%20Alumni/1_Banner_xtyxv6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    width: 100%;
+    padding: 0rem 14rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.body-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main_content {
+    width: 100%;
+    height: auto;
+}
+
+.image-left-content-right-hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.image-right-content-left-hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.image-container-80 {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; */
+}
+
+#sec-2-img-container {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/q_auto,f_auto,h_1920/v1717835342/11%20Alumni/3_Mission_aousn6.jpg');
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sec-1-img-container {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,h_1920/v1718967565/11%20Alumni/AAA.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-container {
+    padding: 2rem;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    background-color: #992728;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+#sec-1-content-container {
+    right: 7rem;
+}
+
+#sec-2-content-container {
+    left: 7rem;
+}
+
+.content-container h1 {
+    font-size: 56px;
+    font-family: "Albertus Medium";
+    margin: 0;
+}
+
+.content-container p {
+    font-size: 20px;
+    font-family: "GT America Regular";
+    margin: 0;
+}
+
+.arrow-btn-white {
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: fit-content;
+    width: max-content;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 0;
+    color: white;
+    margin: 0;
+}
+
+.arrow-btn-white .round-icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+    margin-right: 1rem;
+}
+
+.arrow-btn-black {
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: fit-content;
+    width: max-content;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 0;
+    margin-top: 0;
+    color: black;
+}
+
+.arrow-btn-black .round-icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+    margin-right: 1rem;
+}
+
+/* Alumni-Star Performer Section  */
+
+#section3 {
+    background-color: #151514;
+    color: white;
+    width: 100%;
+    padding: 0rem 7rem 2rem 7rem;
+    margin-bottom: 1rem;
+}
+.nav-menu-container{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 0;
+}
+
+.menu-tab{
+    display: flex;
+    min-width: 25%;
+    color: black;
+    font-size: 1.25rem;
+    font-family: "Albertus Medium";
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5rem; */
+    height: 4rem;
+    gap: 0;
+    width: auto;
+    color: rgba(255, 255, 255, 0.50);
+}
+.selected-tab{
+    background-color: white;
+    color: black;
+}
+.alumni-container{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.alumni-content-container{
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+    min-height: 430px;
+}
+.alumni-date{
+    color: #787878;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+.alumni-name{
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 84px */
+}
+.alumni-designation{
+    color: #FFF;
+    text-align: justify;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.red{
+    color: #992728;
+}
+.alumni-quote-image{
+    margin-top: 3rem;
+}
+.alumni-quote-content{
+    max-width: 60%;
+    position: relative;
+    z-index: 3;
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.alumni-image-container{
+   position: absolute;
+   right: -90px;
+   top: -30px;
+}
+
+#alumni-image-container-ic-1 {
+    height: 500px;
+    width: 600px;
+    z-index: 2;
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_600/v1719299294/11%20Alumni/4%20Alumni_Star_Performers_Remove_Background/Indian%20Companies/umang_agrawal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#alumni-image-container-ac-1 {
+    height: 500px;
+    width: 600px;
+    z-index: 2;
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_600/v1719299469/11%20Alumni/4%20Alumni_Star_Performers_Remove_Background/Companies%20Abroad/ankit_sandilya.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+#alumni-image-container-e-1 {
+    height: 500px;
+    width: 600px;
+    z-index: 2;
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_600/v1719300164/11%20Alumni/4%20Alumni_Star_Performers_Remove_Background/Entrepreneurs/dileep_jaiswal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+#alumni-image-container-gj-1 {
+    height: 500px;
+    width: 600px;
+    z-index: 2;
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_600/v1719300264/11%20Alumni/4%20Alumni_Star_Performers_Remove_Background/GovtJobs/Ms._Kumudini_Tyagi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+#alumni-image-container {
+    height: 500px;
+    width: 700px;
+    z-index: 2;
+    background: url('../assets/alumni-association/alumni-image-boy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.section-footer-arrow-black{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.section-footer-arrow-black hr{
+    width: 50%;
+}
+
+
+/* After hiding the Scrollbarr make tab-height 100% */
+
+#section-4{
+    padding: 0rem 7rem 2rem 7rem;
+    margin-bottom: 1rem;
+}
+.nav-menu-container-white{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+#section-4 .nav-menu-container-white{
+    border-bottom: 4px solid rgba(0, 0, 0, 0.50);
+}
+#section-4 .menu-tab{
+    min-width: 50%;
+    color: rgba(0, 0, 0, 0.30);
+}
+.selected-tab-black{
+     background-color: #151514;
+     color: white !important;
+}
+
+.slider-container {
+    margin-top: 2.5rem;
+    height: 600px;
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.slider-tab {
+    min-width: 350px;
+    height: 90%;
+    position: relative;
+    transition: transform 1s ease;
+}
+
+.slider-content {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #000;
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+.slider-content h1 {
+    font-family: "Albertus Medium";
+    font-size: 36px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.slider-content p {
+    font-family: "GT America Regular";
+    margin: 0;
+    margin-left: 1rem;
+}
+.slide-footer{
+    background-color: #992728;
+    color: white;
+    padding: 1rem;
+    
+}
+.slide-footer h2{
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+
+}
+.slide-footer h3{
+    margin: 0;
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%; 
+}
+
+#slider1India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835303/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/1._Ajanta_Maurya_bjkls1.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider2India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835289/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/6._Gunjan_Nagar_ft9f63.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider3India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835290/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/7._Unnati_Mishra_ifr92e.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider4India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835306/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/3._Anshul_Saxena_ao7nt1.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#slider5India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835306/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/10._Ritik_Verma_qzafzj.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider6India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835312/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/13._Naman_Sisodia_sdqxyp.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider7India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835306/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/16._Akshay_Mishra_hih6xw.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider8India {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835306/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28India%29/17._Govind_Sharma_qufbig.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider1Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/1._Divyansh_Goel_dzccud.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider2Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/2._Sanjana_Jagdish_nawekl.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider3Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/3._Abhijeet_Gaur_hopihj.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider4Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/4._Somya_Parashar_ufugfh.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider5Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/5._Abhay_ncrwro.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider6Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/6._Saksham_Aasal_dkkvir.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider7Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/7._Utkarsh_lgrvye.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider8Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/8._Vernit_Garg_bvjvi3.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#slider9Abroad {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835405/11%20Alumni/5%20Alumni_Higher%20Studies/Higher%20Studies%28Abroad%29/9._Shreya_dwivedi_jxc1pl.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#slider1Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Aayushi_Mahajan_Testimonial_kuwhxf.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+#slider2Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/v1740978293/11%20Alumni/7%20Testimonials/Kaustubh_Bajpai_Testimonial_ctjvws_djv6vm.png"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#slider3Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Shruti_Mittal_Testimonial_e0vwou.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider4Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Prithvinder_Singh_Testimonial_nx4jzf.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider5Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Durgesh_Kumar_Testimonials_pjcl2i.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider6Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Kartik_Sachdeva_Testimonials_gobciv.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider7Test {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_400,q_auto,f_auto/v1717835302/11%20Alumni/7%20Testimonials/Yukta_Anand_Testimonial_crnj4d.jpg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+#slider5 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("../assets/alumni-association/higher-studies5.jpeg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section4 {
+    width: 100%;
+    padding: 2rem 7rem;
+    color: white;
+    background-color: black;
+}
+
+#section4 .image-tab-full {
+    gap: 1.5rem;
+    height: 500px;
+}
+
+#section4 .tab-50 {
+    height: 100%;
+}
+
+#section4 .tab-content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    gap: 1rem;
+}
+
+#section4 .tab-content h1 {
+    margin: 0;
+}
+
+#section4 .tab-content p {
+    margin: 0;
+    font-size: 18px;
+    font-family: "GT America Regular";
+}
+
+#section4 #left {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/h_400,w_500,f_auto,q_auto/v1699547688/abes/life_abes-medical_rov9oq.png"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section4 #right {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/h_400,w_500,f_auto,q_auto/v1699547685/abes/life_abes-yourdost_jnxo3d.png"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section-5 {
+    width: 100%;
+    padding: 0rem 7rem 2rem 7rem;
+    background-color: black;
+    color: white;
+}
+
+#section-6 {
+    padding: 0rem 7rem 2rem 7rem;
+    margin-bottom: 1rem;
+}
+
+#section-6 .slider-content h1{
+    margin-bottom: 2px white;
+    text-decoration: underline;
+    line-height: 150%;
+}
+/* #section-6 .slider-content h1:before{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    background-color: white;
+    width: 100%;
+} */
+
+#section-6 .slider-content p{
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+#section-6 .slider-content span{
+    padding: 1rem;
+    padding-top: 0;
+    color: #D7D7D7;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+}
+#section-6 .slider-tab{
+    min-width: 32.5%;
+}
+#section-6 .slider-container{
+    margin-top: 0;
+}
+
+#section-7 {
+    width: 100%;
+}
+
+.heading {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-family: "Albertus Medium";
+    margin-bottom: 1.5rem;
+}
+
+.image-and-content-normal {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.image-container-50 {
+    width: 50%;
+    height: 100%;
+}
+
+.content-container-50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content-container-50 h1 {
+    font-family: "Albertus Medium";
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+}
+
+.content-container-50 p {
+    color: #FFF;
+text-align: justify;
+font-family: "GT America Regular";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+#sec-5-img-container-1 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/1_T-10_Cricket_Tournament_ickgax.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sec-5-img-container-2 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/2_Decadal_Celebration_mpozhl.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#sec-5-img-container-3 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/3_Alumni_Day_ks3riv.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#sec-5-img-container-4 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/4_Salaah_ckobzv.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sec-5-img-container-5 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/5_Talk_Show_zieg2e.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#sec-5-img-container-6 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/6_Sponsorship_for_our_Institute_Annual_Fest_rg23if.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#sec-5-img-container-7 {
+    background: url('https://res.cloudinary.com/dyi2eiqum/image/upload/w_700,q_auto,f_auto/v1717835385/11%20Alumni/6%20Initiatives/7_Seed_Policy_rdz2q4.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.black-icon-button {
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: fit-content;
+    width: max-content;
+    align-items: center;
+    cursor: pointer;
+    background-color: #000;
+    padding: 2px 12px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.icon-container:hover {
+    background-color: #0e0e0e;
+}
+
+.white-icon-button {
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: fit-content;
+    width: max-content;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 2px 14px;
+    margin-top: 0;
+    color: black;
+}
+
+.white-icon-button .icon-container:hover {
+    background-color: white;
+}
+
+.image-tabs-container {
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.image-tab-full {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 1rem;
+}
+
+.tab-50 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.tab-100 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tab-content {
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+.tab-content h1 {
+    margin: 0;
+    font-size: 46px;
+    font-family: "Albertus Medium";
+}
+
+#tab1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/da7jsfp9z/image/upload/h_356,f_auto,q_auto/v1699370629/life%40abes/life_abes-genero_wsima7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tab2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/da7jsfp9z/image/upload/h_534,q_auto,f_auto/v1699370569/life%40abes/life_abes-tech-fest_mdzqkp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tab3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/da7jsfp9z/image/upload/w_712,f_auto,q_auto/v1699370569/life%40abes/life_abes-utsaah_bzj8gb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tab4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('https://res.cloudinary.com/da7jsfp9z/image/upload/w_712,q_auto,f_auto/v1699370570/life%40abes/life_abes-tedx_hfu9bb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tab5 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, #000 100%), url("https://res.cloudinary.com/da7jsfp9z/image/upload/h_356,f_auto,q_auto/v1699370571/life%40abes/life_abes-sports-outside_nk5pm9.png"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+.banner-half-h {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.40) 0%, #141414 100%), url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_1920,q_auto,f_auto/v1717835344/11%20Alumni/8_Admission_Open_u4byql.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content {
+    width: 100%;
+    padding: 0rem 14rem;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+
+.banner-content a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.banner-content p {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.link-icon-container .icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+}
+
+/*classroom cards */
+.classroom-cards {
+    display: flex;
+    padding: 1.2rem 1.8rem;
+    align-items: center;
+    gap: 3.8rem;
+    align-self: stretch;
+    background: #e8e8e8;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.classroom-card-heading {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 0.6rem;
+}
+
+.classroom-card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: #000;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 1.150rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.classroom-image {
+    display: flex;
+    flex: 1.2;
+    min-height: 480px;
+}
+
+.classroom-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#classrooms {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.clubs {
+    position: relative;
+}
+
+.mobile {
+    display: none;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 450px) {
+    section {
+        gap: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+    .heading h2{
+        font-size: 2.5rem;
+    }
+    /* banner */
+
+    .banner {
+        height: 100svh;
+    }
+
+    .banner-text {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    .banner-text h1 {
+        font-size: 2.75rem;
+    }
+
+    .banner-text p {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 18px;
+    }
+
+    /* AAA Section */
+
+    .image-left-content-right-hover {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-container-80 {
+        order: 2;
+        position: static;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    .content-container {
+        padding: 1rem;
+        position: static;
+        width: 100%;
+        background-color: white;
+        color: black;
+    }
+
+    .content-container h1{
+        font-size: 2.5rem;
+    }
+
+    #sec-2-img-container{
+        height: 300px;
+    }
+
+    /* our facilities */
+
+    #section-2 {
+        padding: 1rem;
+    }
+
+    .heading h2 {
+        margin: 0;
+    }
+
+    .slider-container {
+        height: 550px;
+    }
+
+    .slider-tab {
+        height: 97%;
+        min-width: 300px;
+    }
+
+    .slider-content {
+        width: 100%;
+    }
+
+    /* Sports and Recrational */
+
+    .image-right-content-left-hover {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-right-content-left-hover .image-container-80 {
+        /* order: 1 !important; */
+    }
+
+    .image-right-content-left-hover .content-container {
+        /* order: 2 !important; */
+    }
+
+    /* Health adn wellness */
+    #section4{
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    #section4 .image-tabs-container{
+        gap: 2rem;
+    }
+     #section4 .image-tab-full{
+        flex-direction: column;
+        gap: 3rem;
+        height: 1000px;
+    }
+    .tab-50{
+        position: relative;
+        width: 100%;
+    }
+    .tab-content{
+        width: 100%;
+        left: 0.7rem;
+        bottom: 0;
+    }
+    .tab-content h1{
+        font-size: 2rem;
+    }
+    .tab-content p {
+        font-size: 16px !important;
+    }
+    #section4 .arrow-btn-white {
+        font-size: 1rem;
+    }
+    #section4 .arrow-btn-white .round-icon-container{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Community and engagement */
+        
+    #section-5{
+        padding: 1rem;
+    }
+    .image-and-content-normal{
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+    #community-sec-1{
+        margin-bottom: 1rem;
+    }
+    .image-and-content-normal .image-container-50{
+        order: 1;
+        width: 100%;
+        height: 400px;
+    }
+    .image-and-content-normal .content-container-50{
+        width: 100%;
+        order: 2;
+    }
+
+    /* Art and culture */
+    #section-6{
+        padding: 1rem;
+    }
+    .image-tab-full{
+        flex-direction: column;
+    }
+    #section-6 .tab-content{
+        left: 1rem;
+        bottom: 1rem;
+    }
+    #section-6 .arrow-btn-white {
+        font-size: 1rem;
+    }
+    #section-6 .arrow-btn-white .round-icon-container{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* bottom banner */
+
+    .banner-half-h{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-content{
+        position: static;
+        padding: 0;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+        padding: 0 3rem;
+        line-height: 1.4;
+    }
+    .image-left-content-right-hover{
+        height: auto;
+    }
+    .image-right-content-left-hover {
+        height: auto;
+    }
+
+    #section3{
+        padding: 1rem;
+        display: block;
+        overflow-x: hidden;
+    }
+    .menu-tab{
+        font-size: 15px;
+        text-align: center;
+    }
+    .alumni-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        flex-direction: column;
+    }
+    .alumni-image-container{
+        display: block;
+        position: static;
+        order: 1;
+    }
+    .alumni-content-container{
+        order: 2;
+        position: static;
+        width: 100%;
+    }
+    .alumni-name{
+        font-size: 2.5rem;
+    }
+    .alumni-quote-content{
+        max-width: 100%;
+    }
+
+    #section-4{
+        padding: 1rem;
+    }
+    #section-4 .slider-tab{
+       min-width: 350px;
+    }
+
+    #section-6 .slider-tab{
+        min-width: 350px
+    }
+    .body-section{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .nav-menu-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+.alumni-description > p {
+    font-family: "GT America Regular";
+    line-height: 1.5;
+    /* font-size: 20px; */
+    font-size: 1.11rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    color: #585858;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    width: 100%;
+}
+tr {
+    border-bottom: 1px solid #3c3c3c;
+}
+table th {
+    background-color: #000;
+    color: #fff;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 15px 24px;
+    text-align: start;
+    line-height: 24px;
+}
+td {
+    padding: 15px 24px;
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: start;
+}

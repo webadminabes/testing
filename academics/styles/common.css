@@ -1,0 +1,840 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("../font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("../font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Trial";
+  src: url("../font/GT-America-Compressed-Light-Trial.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("../font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("../font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Albertus-Medium.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(243, 244, 244);
+  scroll-behavior: smooth;
+}
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
+
+
+.banner {
+  width: 100%;
+  height: 300px;
+  padding: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.banner-text {
+  width: 100%;
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.banner-text h1 {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 52px;
+  font-weight: 400;
+  font-family: "Albertus Medium";
+}
+
+.banner-text a {
+  margin: 0;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  background: #992728;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Albertus Medium";
+}
+
+.body-section {
+  display: flex;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  flex: 20%;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+  flex-grow: 0;
+}
+.left-menu div,
+.left-menu a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 22px 28px 22px 26px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Albertus Medium";
+  font-size: 1.02rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration: none;
+}
+.left-menu .quick-links {
+  color: #992728;
+  border-bottom: 0;
+  font-family: "GT America Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  padding: 10px 28px 10px 26px;
+  align-items: center;
+}
+
+.left-menu .overview {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 20px 28px 20px 26px;
+  align-items: center;
+  font-family: "Albertus Medium";
+  font-size: 1.02rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.mobile-menu{
+  display: none;
+}
+.padding {
+  padding: 24px 100px 54px;
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.padding-table {
+  padding: 24px 100px 54px;
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.mini-nav-link {
+  color: #545454;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.mini-nav-bar {
+  text-align: justify;
+  font-family: "GT America Regular";
+  font-size: 15px;
+  font-style: normal;
+  /* line-height: 150%; */
+  margin-bottom: 1.3rem;
+  display: flex;
+  gap: 8px;
+}
+
+.main-heading-container {
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  /* padding-top: 0px; */
+}
+
+.main-heading-content h2 {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0.5rem 0rem;
+}
+
+.main-heading-divider {
+  margin-top: 1.5rem;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.red-heading {
+  font-family: "Albertus Medium";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #992728;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-para {
+  font-family: "GT America Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bullet-list {
+  color: #000;
+  text-align: justify;
+  font-family: "GT America Regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.sub-heading {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 5.25rem */
+}
+
+.carousel-main-image {
+  width: 100%;
+  padding: 1.8rem 0;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.carousel-main-image img {
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: cover; */
+}
+.carousel {
+  display: flex;
+  gap: 1rem;
+  /* overflow: hidden; */
+  /* position: relative; */
+  transition: transform 1s ease-in-out;
+  /* padding-bottom: 2.2rem; */
+}
+.carousel-image {
+  /* display: flex; */
+  width: 11.1%;
+  height: 74px;
+  cursor: pointer;
+}
+.slider-image {
+  min-width: 100px;
+  height: 74px;
+  cursor: pointer;
+}
+.slider-image img {
+  /* display: flex; */
+  width: 100%;
+  height: 100%;
+}
+#chevron-left-icon {
+  background: #fff;
+  position: absolute;
+  left: 0.5rem;
+  display: flex;
+  top: 26%;
+  border-radius: 50%;
+  padding: 0.6rem 0.8rem;
+  z-index: 1;
+  cursor: pointer;
+}
+#chevron-right-icon {
+  background: #fff;
+  opacity: 1;
+  position: absolute;
+  right: 0.5rem;
+  top: 26%;
+  border-radius: 50%;
+  padding: 0.6rem 0.8rem;
+  z-index: 1;
+  cursor: pointer;
+}
+#right-slide {
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #373737;
+}
+#left-slide {
+  /* position: absolute;
+  left: 0;
+  top: 40%; */
+
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #373737;
+}
+.non-selected-image {
+  background: lightgray 50%;
+  opacity: 0.5;
+}
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+}
+.table-header {
+  background-color: #000;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px 0;
+  width: 100%;
+}
+
+th {
+  background-color: #000;
+  color: #fff;
+  font-family: "GT America Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px 24px;
+  text-align: start;
+  line-height: 24px;
+}
+
+td {
+  padding: 15px 24px;
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start;
+}
+tr {
+  border-bottom: 1px solid #3c3c3c;
+}
+.td-max-content {
+  min-width: 8rem;
+}
+
+.points {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  padding: 18px 34px;
+  align-self: stretch;
+  border-bottom: 1px solid #3c3c3c;
+}
+.points .number {
+  display: flex;
+  min-width: 40px;
+  height: max-content;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #373737;
+  background: #373737;
+  color: #fff;
+  text-align: center;
+  font-family: "GT America Regular";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 40px; */
+}
+
+.points .explanation {
+  color: #000;
+  font-family: "GT America Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.points .explanation-bold {
+  font-weight: 700;
+}
+
+.table-heading {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.table-container {
+  width: 100%;
+}
+.table-container .table-heading h2 {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+.table-divider {
+  margin-top: 0.5rem;
+  border: 2px solid #000;
+}
+.table-content {
+  margin-top: 2.7rem;
+}
+.table-content a span {
+  display: flex;
+  gap: 2rem;
+}
+.table-column-min-width {
+  width: 70%;
+}
+.table-content a {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  border-bottom: 1px solid #3c3c3c;
+  text-decoration: none;
+}
+.table-content div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  border-bottom: 1px solid #3c3c3c;
+}
+.table-content span i {
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0, 1);
+}
+/* arrow button black */
+
+.arrow-btn-black {
+  text-decoration: none;
+  font-family: "GT America Regular";
+  display: flex;
+  height: fit-content;
+  font-size: 18px;
+  /* width: max-content; */
+  align-items: center;
+  cursor: pointer;
+  padding: 2px 0;
+  color: black;
+  margin: 0;
+}
+
+.arrow-btn-black .round-icon-black-container {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px !important;
+  margin-right: 1rem;
+}
+
+.round-icon-black-container {
+  border: solid 2px black;
+}
+
+.arrow-btn-black:hover i {
+  color: #992728;
+}
+
+.arrow-btn-black:hover .round-icon-black-container {
+  border-color: #992728;
+}
+
+.round-icon-black-container i {
+  color: #000;
+}
+
+/* arrow button white */
+.arrow-btn-white {
+  text-decoration: none;
+  font-family: "GT America Regular";
+  display: flex;
+  height: fit-content;
+  font-size: 18px;
+  /* width: max-content; */
+  align-items: center;
+  cursor: pointer;
+  padding: 2px 0;
+  color: white;
+  margin: 0;
+}
+
+.arrow-btn-white .round-icon-container {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px !important;
+  margin-right: 1rem;
+}
+
+.arrow-btn-white .arrow-text {
+  font-family: "GT America Regular";
+  font-weight: 340;
+  text-wrap: nowrap;
+}
+
+.arrow-btn-white:hover i {
+  color: #992728;
+}
+
+.arrow-btn-white:hover .round-icon-container {
+  border-color: #992728;
+}
+
+#left-menu-mob {
+  display: none;
+}
+/* ADMISSION Program-offered section */
+#mini-nav-bar-mob{
+  display: none ;
+}
+#progs-offered-description #table-mob{
+  display: none;
+}
+
+
+
+
+
+/* Mobile Responsiveness */
+
+/* Selection menu */
+
+#top-menu-mob{
+  display: none;
+}
+
+@media (max-width: 450px) {
+  :root {
+    --heading-size: 2rem;
+  }
+  .desktop{
+    display: none;
+  }
+
+  /* top banner */
+
+  .banner {
+    height: 40vh;
+    align-items: flex-end;
+  }
+  .banner-text {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+  .banner-text h1 {
+    font-size: var(--heading-size);
+  }
+
+  /* Mechanical Engineering Mobile Responsive */
+
+  .body-section{
+    width: 100vw;
+  }
+  .left-menu{
+    display: none;
+  }
+  .padding{
+    display: none;
+  }
+  .padding-table{
+    padding: 30px 20px;
+  }
+
+  /* Selection Menu  */
+
+  .mobile-menu{
+    display: flex;
+    min-width: 100vw;
+
+  }
+  #mobile-menu{
+    display: flex;
+  }
+  .mobile-menu #mini-nav-bar-mob2{
+    border-bottom: 0;
+    padding-bottom: 10px;
+  }
+  .mobile-menu #mini-nav-bar-mob2 a{
+    border-bottom: 0;
+    padding-left: 0;
+    padding-right: 5px;
+  }
+  .mobile-menu #mini-nav-bar-mob2 span{
+    padding-right: 5px;
+    font-size: 13px;
+  }
+  .mobile-menu .quick-links-mob{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: #992728;
+    font-size: 18px;
+  }
+
+
+
+  .arrow-btn-white .arrow-text {
+   
+    text-wrap: wrap;
+  }
+
+  .banner-image-content #background-img-deks {
+    display: none;
+  }
+  .banner-image-content #background-img-mob {
+    display: block;
+  }
+
+  /* By Department Section of valueAddedCourse */
+  .table-container .table-heading h2 {
+    font-size: var(--heading-size);
+    margin-bottom: 16px;
+  }
+  .table-content a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .table-content a span {
+    min-width: 100px;
+    justify-content: end;
+  }
+  /* mini-nav mobile */
+  #mini-nav-bar-deks{
+    display: none;
+  }
+  #mini-nav-bar-mob{
+    display: block;
+  }
+
+
+  /* ADMISSIONS PAGE */
+  /* left menu of admission page */
+  #left-menu-deks {
+    display: none;
+  }
+  #left-menu-mob {
+    display: flex !important;
+    flex-direction: column;
+  }
+  #left-menu-mob #mini-nav-bar-mob2{
+    border-bottom: 0;
+    padding-bottom: 10px;
+  }
+  #left-menu-mob #mini-nav-bar-mob2 a{
+    border-bottom: 0;
+    padding-left: 0;
+    padding-right: 5px;
+  }
+  #left-menu-mob #mini-nav-bar-mob2 span{
+    padding-right: 5px;
+    font-size: 13px;
+  }
+  #left-menu-mob .quick-links-mob{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: #992728;
+    font-size: 18px;
+  }
+
+  /* program-offered section */
+  .padding {
+    padding: 30px 20px;
+  }
+  .white-icon-button {
+    width: auto;
+  }
+  .main-heading-content h2 {
+    font-size: var(--heading-size) !important;
+  }
+  .main-heading-divider {
+    margin-top: 0.5rem !important;
+  }
+  td{
+    font-size: 14px;
+  }
+  td:nth-child(even){
+    text-align: end;
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+  td:nth-child(odd){
+    text-align: start;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  th:nth-child(even){
+    text-align: center;
+  }
+  th:nth-child(odd){
+    text-align: center;
+    padding-left: 0;
+  }
+  #progs-offered-description th{
+    font-size: 17px;
+  }
+  #progs-offered-description .white-icon-button{
+    padding: 0 8px;
+  }
+  #progs-offered-description #table-deks{
+    display: none;
+  }
+  #progs-offered-description #table-mob{
+    display: block;
+  }
+
+  /* DropDown-Menu Mobile */
+  #drop-down-span{
+    position: relative;
+  }
+  .drop-down-mob{
+    display: none;
+  }
+  #drop-down-span:hover .drop-down-mob{
+    display: block;
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: black;
+    border: 1px solid red;
+  }
+  .drop-down-mob a{
+    text-decoration: none;
+    color: white;
+  }
+  .drop-down-mob .element1{
+    color: red;
+  }
+
+  #top-menu-mob{
+   display: none;
+  }
+  #left-menu-mob{
+    display: none !important;
+  }
+
+  #top-menu-mob{
+    position: absolute;
+    z-index: 1;
+    height: 400px;
+    bottom: 0;
+    background-color: white;
+    width: fit-content;
+    transform: translateX();
+    overflow-y: scroll;
+    max-width: 100%;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  #top-menu-mob::-webkit-scrollbar {
+    width: 8px;
+    display: block !important;
+    border-radius: 4px;
+  }
+  
+  #top-menu-mob::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  #top-menu-mob::-webkit-scrollbar-track {
+    background-color: #555;
+    border-radius: 4px;
+  }
+
+  .left-menu div,
+  .left-menu a,.left-menu .quick-links ,.left-menu .overview  {
+    padding: 9px 16px 9px 14px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* GRC Grievance Redressal Cell page */
+  .left-menu{
+    display: none;
+  }
+  .banner-image-content .background-img{
+    height: 70vh;
+  }
+  .body-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

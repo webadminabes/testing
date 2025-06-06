@@ -1,0 +1,319 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/font/Albertus-Medium.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(243, 244, 244);
+}
+.banner-text {
+  margin-top: 0 !important;
+}
+.overflow-x-hidden{
+  overflow-x: hidden;
+
+}
+/* Section-1 */
+.section1 #heading {
+  font-family: "Albertus Medium";
+  color: brown;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section1 #heading-sub {
+  font-family: "GT America Regular";
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 0;
+}
+.section1 p {
+  font-family: "GT America Regular";
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: justify;
+  font-weight: 400;
+}
+.explore-images-container .sec1-img {
+  flex: 0 0 23%;
+  max-width: 23%;
+  height: 350px;
+}
+.explore-images-container .sec1-img .sec1-img-content {
+  font-family: "Albertus Medium";
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Section-3 Training Details */
+.flip-container-main {
+  padding: 24px 100px 24px;
+  width: 100%;
+}
+.flip-container {
+  margin: 30px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  perspective: 1000px;
+}
+.flip-container .flip-container-sub {
+  position: relative;
+  cursor: pointer;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  height: 300px;
+  width: 100%;
+}
+.flip-container-sub:hover {
+  transform: rotateY(180deg);
+}
+.flip-container .flip-container-sub.flipped {
+  transform: rotateY(180deg);
+}
+.flip-container .flip-container-sub .box1 {
+  backface-visibility: hidden;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.flip-container .flip-container-sub .box1::after {
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #000000 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.flip-container .flip-container-sub .box1 span {
+  position: absolute;
+  color: white;
+  bottom: 32px;
+  left: 20px;
+  font-size: 32px;
+  /* text-shadow: 2px 2px rgba(0, 0, 0, 0.6); */
+  font-family: "Canela Deck Web";
+  z-index: 100;
+}
+.flip-container .flip-container-sub .box1 img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: fill; */
+  object-fit: cover;
+}
+.flip-container .flip-container-sub .box2 {
+  /* position: absolute; */
+  backface-visibility: hidden;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  transform: rotateY(180deg);
+  background-color: brown;
+}
+.flip-container .flip-container-sub .box2 h3 {
+  color: white;
+  font-size: 18px;
+  font-family: "Albertus Medium";
+  padding: 0 10px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+.flip-container .flip-container-sub .box2 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-family: "GT America Regular";
+  padding: 0 10px;
+  text-align: justify;
+}
+/* Slider */
+.section1 .slide {
+  display: none;
+}
+.section1 .btm-slider {
+  display: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 450px) {
+  :root {
+    --heading-size: 32px;
+  }
+  .main-heading-black h2 {
+    margin-bottom: 16px !important;
+  }
+  .divider {
+    margin-top: 0 !important;
+  }
+
+  /* Training Roadmap Section */
+  #sec-4 {
+    padding: 30px 20px;
+  }
+  .heading h2 {
+    font-size: 32px;
+    margin-bottom: 16px !important;
+    font-weight: 400;
+  }
+  .sub-head {
+    text-align: center;
+  }
+  .offset-div {
+    display: none;
+  }
+  .content-container:nth-of-type(odd) {
+    border-width: 0 !important;
+  }
+  .content-container:nth-of-type(even) {
+    border-width: 0 !important;
+  }
+  .content-container {
+    background-color: black !important;
+  }
+  .image-and-content {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  .image-container {
+    margin-top: 0 !important;
+  }
+  .image-container:nth-of-type(odd) {
+    margin-right: 0 !important;
+  }
+  .image-container:nth-of-type(even) {
+    margin-left: 0 !important;
+  }
+  .content-container {
+    padding: 0 !important;
+  }
+  .text-container:nth-of-type(even) {
+    padding-left: 0 !important;
+    text-align: center !important;
+  }
+  .text-container:nth-of-type(odd) {
+    padding-right: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Training details section */
+  .flip-container-main {
+    padding: 30px 20px;
+  }
+  .flip-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flip-container .flip-container-sub {
+    height: 100%;
+  }
+
+  /* Slider */
+  .explore-images-container .sec1-img .sec1-img-content {
+    position: relative;
+    top: -250px;
+    font-size: 26px;
+  }
+  .section1 .slide {
+    display: block;
+  }
+  .section1 .btm-slider {
+    display: block;
+  }
+  .explore-images-container .sec1-img {
+    flex: 0 0 100%;
+  }
+  .explore-images-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    flex-wrap: nowrap !important;
+    justify-content: left !important;
+    position: relative;
+  }
+  .explore-images-container .explore-images {
+    height: 100%;
+    width: 100%;
+  }
+  .section1 .btm-slider {
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+    display: flex;
+  }
+
+  .section1 .btm-slider span {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .section1 .btm-slider span:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .section1 .slide {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .slide:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .section1 .right {
+    right: 0;
+  }
+  .section1 .slide span {
+    font-size: 35px;
+    color: white;
+    list-style: none;
+  }
+}

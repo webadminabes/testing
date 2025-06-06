@@ -1,0 +1,405 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Canela Deck Web";
+    src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Bold";
+    src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Medium";
+    src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Regular";
+    src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/font/Albertus-Medium.ttf") format("truetype");
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(243, 244, 244);
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url('https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_1080/v1717832314/2%20About%20Us/8%20Institute%27s%20Achievements/Banner_afrdfd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-text {
+    width: 100%;
+    padding: 0 7rem;
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1 {
+
+    width: 50%;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 450px;
+    height: 350px;
+}
+
+.heading {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.heading h2 {
+    margin: 0;
+    font-size: 48px;
+    font-family: "Albertus Medium";
+    margin-bottom: 1.5rem;
+}
+
+section {
+    padding: 2rem 10rem;
+}
+
+.nirf-description {
+    padding: 2rem 7rem 1rem 7rem;
+    overflow-y: hidden;
+}
+
+.list li {
+    font-family: "GT America Regular";
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+
+}
+
+.placements {
+    margin-top: 1rem;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 90vh;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #992728;
+}
+
+.nirf-description>p {
+    font-family: "GT America Regular";
+    line-height: 1.5;
+    /* font-size: 20px; */
+    font-size: 1.11rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    color: #585858;
+    text-align: justify;
+    margin-top: 0;
+    /* border: 1px solid black; */
+    margin-bottom: 0;
+}
+
+.nirf-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.nirf-header>h1 {
+    padding-top: 0;
+    font-family: "Albertus Medium";
+    /* font-size: 42px; */
+    font-size: 2.6rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    margin: 0;
+}
+
+.nirf-header .nirf-details p:first-child {
+    font-family: "GT America Regular";
+    line-height: 1.5;
+    /* font-size: 18px; */
+    font-size: 1.11rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    color: #585858;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nirf-link-item a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.nirf-link-item a span {
+    font-family: "GT America Medium";
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    color: #1e1e1e;
+}
+
+.nirf-arrow-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(101, 111, 119);
+}
+
+.nirf-link-item a:hover .nirf-arrow-container {
+    background-color: #1e1e1e;
+}
+
+.nirf-divider {
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ranking-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 72px;
+}
+
+.ranking-container p:first-child {
+    padding-top: 0;
+    font-family: "Albertus Medium";
+    font-size: 22px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    margin: 0;
+}
+
+.ranking-container p:last-child {
+    font-family: "GT America Regular";
+    line-height: 1.5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    padding-bottom: 0;
+    text-align: start;
+    color: #585858;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nirf-ranking-divider {
+    margin: 20px 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 450px) {
+
+    .heading {
+        margin-bottom: 0;
+    }
+    .heading h2{
+        font-size: 2rem;
+    } 
+    .banner-text h1{
+        font-size: 2rem;
+        padding: 0 1rem;
+        width: 100%;
+    }
+    
+    .heading-padding {
+        padding: 1rem;
+    }   
+
+    .logo{
+        display: none;
+    }
+    .placements{
+        width: 100%;
+        max-height: auto;
+        min-height: auto;
+    }
+
+    .nirf-description {
+        padding: 1rem 1rem;
+    }
+
+    .nirf-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nirf-header>h1 {
+        margin-bottom: 30px;
+        font-size: 1.9rem;
+    }
+
+    .nirf-link-item a {
+        margin-top: 20px;
+    }
+
+    .ranking-container p:first-child {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .ranking-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ranking-container p:last-child {
+        min-width: 125px;
+        text-align: right;
+    }
+}
+
+#sec-9 {
+    padding: 2rem 7rem 10rem 7rem;
+    background-color: #151514;
+}
+
+#sec-9 .heading {
+    color: #FFF;
+}
+
+.flex-layer-1 {
+    position: relative;
+    width: 100%;
+    /*padding-top: 25px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-layer-1 img{
+    padding: 10px;
+}
+
+.flex-layer-2 {
+    z-index: 1;
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.ranking-image {
+    position: relative;
+}
+
+.rank-text {
+    color: #000000;
+    font-family: "Albertus medium";
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-layer-2 .rank-text {
+    bottom: 0;
+}
+.red-sub-heading {
+    color: #992728;
+    text-align: center;
+    font-family: "Albertus Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+p.red-text {
+    font-family: "Albertus Medium";
+    font-size: 2.5rem;
+    color: #992728;
+    text-align: center;
+    padding: 4rem;
+    text-decoration: none;
+}
+@media (min-width: 320px) and (max-width: 600px){
+    .nirf-description>p {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    
+}

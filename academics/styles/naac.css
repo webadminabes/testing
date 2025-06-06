@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/Albertus-Medium.ttf') format('truetype');
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(243, 244, 244);
+}
+
+.naac-image-container {
+  height: 100vh;
+  position: relative;
+}
+
+.naac-image-content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.naac-image-content::before {
+  content: "";
+  background: hsla(0, 0%, 5%, 0.6);
+  /* background: linear-gradient(180deg, hsla(0, 0%, 5%, 0.4) 29.9%, #0e0e0e); */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.naac-image-content .background-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.naac-image-content h1 {
+  position: absolute;
+  top: 52%;
+  left: 29%;
+  max-width: 550px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-family: "Albertus Medium";
+  font-size: 3.5rem;
+  line-height: 4.3rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  padding-bottom: 0;
+  text-align: start;
+}
+.naac-image-content .naac-logo {
+  position: absolute;
+  top: 57.3%;
+  left: 74%;
+  /* width: 270px; */
+  padding: 20px;
+  /* height: 148px; */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: white;
+}
+.naac-description {
+  padding: 64px 159px;
+}
+.naac-description > p {
+  font-family: "GT America Regular";
+  line-height: 1.5;
+  /* font-size: 20px; */
+  font-size: 1.11rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  padding-bottom: 0;
+  text-align: start;
+  color: #585858;
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.naac-details > p {
+  padding: 0;
+  font-family: "Albertus Medium";
+  font-size: 22px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  text-align: start;
+  margin: 0;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 450px){
+  
+  .naac-image-content h1{
+    display: block;
+    width: 80%;
+    top: 38%;
+    left: 50%;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin:20px  auto;
+    text-align: center;
+    height: 8rem;
+  }
+  .naac-image-content .naac-logo{
+    top: 72%;
+    left: 50%;
+    height: 140px;
+    width: 140px;
+  }
+  .naac-image-content .background-img{
+    height: 550px;
+  }
+  .naac-description{
+    padding: 30px 20px;
+  }
+  .naac-details > p{
+    font-size: 1.2rem;
+  }
+}
