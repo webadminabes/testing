@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/Albertus-Medium.ttf') format('truetype');
+}
+*{
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(243, 244, 244);
+}
+
+
+.Course-content {
+  display: flex;
+  /* padding: 2rem 7rem; */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+.header-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  column-gap: 2rem;
+}
+.header-image {
+  height: 14rem;
+  width: 23rem;
+}
+.header-image img {
+  width: 100%;
+  object-fit: cover;
+  height: 14rem;
+}
+
+.header-content {
+  font-family: "Albertus Medium";
+  color: #000;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.1rem;
+
+  /* text-align: justify; */
+}
+.by-content {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 0.7rem;
+}
+.valueCourse-description {
+  color: #000;
+  text-align: justify;
+  font-family: "GT America Regular";
+  font-size: 1.11rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8rem;
+  align-self: stretch;
+  /* padding: 0rem 7rem 0rem 7rem; */
+}
+/* .value-training-container {
+  padding: 0rem 7rem 2rem 7rem;
+} */
+/* .value-training-container .value-training-heading{
+  margin: 0;
+} */
+.value-padding {
+  padding: 24px 100px 24px;
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.value-training-container .value-training-heading h2 {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 2rem 0rem;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.value-images-content{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+}
+.training-container-images{
+  position: relative;
+}
+#training-images-gap-link{
+  text-decoration: none;
+}
+
+.value-courses-images {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.value-courses-images div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.value-courses-images .arrow-text {
+  color: #FFF;
+  font-family: "GT America Regular";
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* .table-container {
+  padding: 0.8rem 0rem 2rem 0rem;
+} */
+.value-images-content-heading{
+  color: #FFF;
+font-family: "Albertus Medium";
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+/* line-height: 5rem */
+}
+.value-images-content:hover i {
+  color: #992728;
+}
+.value-images-content:hover .round-icon-container {
+  border-color: #992728;
+}
+/* .value-department-container .value-department-heading{
+  margin: 0;
+} */
+
+
+/* Mobile Responsiveness */
+@media (max-width: 450px){
+
+  :root{
+    --heading-size: 32px;
+  }
+
+  .banner-image-content{
+height: 70vh;
+  }
+  .banner-image-content .background-img{
+    height: 100%;
+  }
+  .banner-image-content h1{
+    width: 80%;
+    margin: auto;
+    font-size: 32px;
+  }
+
+  /* .valueCourse-description{
+    padding: 30px 20px;
+    padding-bottom: 0;
+  } */
+  .header-grid-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .header-image{
+    width: 100%;
+  }
+  .header-content{
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .valueCourse-description{
+    line-height: 1.3;
+  }
+
+
+  /* Training section */
+  .value-padding{
+    padding: 30px 20px;
+  }
+  .value-courses-images{
+    display: flex;
+    flex-direction: column;
+  }
+  .value-training-container .value-training-heading h2{
+    font-size: var(--heading-size);
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .value-images-content-heading{
+    font-size: var(--heading-size);
+  }
+
+  .value-images-content-heading{
+    margin-bottom: 10px;
+  }
+  .arrow-btn-white .round-icon-container{
+    display: none !important;
+  }
+  .value-courses-images .arrow-text{
+    display: none;
+  }
+
+  /* By Department Section
+  present in common.css */
+
+}
+

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Canela Deck Web";
+    src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Bold";
+    src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Medium";
+    src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "GT America Regular";
+    src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url('/font/Albertus-Medium.ttf') format('truetype');
+  }
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(243, 244, 244);
+  }
+ 
+  
+ 
+  /* .valueCourse-content {
+    display: flex;
+    padding: 2rem 7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+  } */
+  .header-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 2rem;
+  }
+  .header-image {
+    height: 14rem;
+    width: 23rem;
+  }
+  .header-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 14rem;
+  }
+  
+  .header-content {
+    font-family: "Albertus Medium";
+    color: #000;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.1rem;
+  
+    /* text-align: justify; */
+  }
+  .by-content {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 0.7rem;
+  }
+  .valueCourse-description {
+    color: #000;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 1.11rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    align-self: stretch;
+    padding: 0rem 7rem 0rem 7rem;
+  }
+  .value-training-container {
+    padding: 0rem 7rem 2rem 7rem;
+  }
+  /* .value-training-container .value-training-heading{
+    margin: 0;
+  } */
+  .value-training-container .value-training-heading h2 {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 2rem 0rem;
+  }
+  .training-images-gap{
+    display: flex;
+    flex-direction: row;
+    max-width: 24rem;
+    gap: 1rem;
+    align-items: center;
+  }
+  .arrow{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.1rem 0.7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 0.8rem;
+    height: 2rem;
+  }
+  .value-images-content{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+  }
+  .value-images-content-description{
+    color: #FFF;
+  font-family: "GT America Regular";
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 100;
+  
+  
+  }
+  .training-container-images{
+    position: relative;
+  }
+  
+  .value-courses-images {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .value-courses-images div {
+    flex: 0 0 48.6%;
+  }
+  .value-courses-images div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+ 
+  .value-images-content-heading{
+    color: #FFF;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 5rem */
+  }
+ 

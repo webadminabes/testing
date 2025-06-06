@@ -1,0 +1,657 @@
+@font-face {
+  font-family: "Canela Web";
+  src: url("../font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("../font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("../font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("../font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CoreIcons";
+  src: url("../font/core-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Albertus-Medium.ttf') format('truetype');
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(244, 244, 244);
+    scroll-behavior: smooth;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.40) 0%, #141414 100%), url('https://www.harvard.edu/wp-content/uploads/2021/01/072220_Features_SM_03.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-text {
+    width: 100%;
+    padding: 0rem 7rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-family: "Albertus Medium";
+    font-size: 84px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    width:  40%;
+    color: white;
+    font-style: normal;
+    line-height: 120%;
+}
+
+.leadership-details-container {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid rgb(186, 197, 198);
+  display: flex;
+  align-items: center;
+  padding: 0 72px;
+  background-color: rgb(243, 244, 244);
+}
+
+.leadership-details-container ul {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  gap: 2.5rem;
+}
+
+.leadership-details-container ul li a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.leadership-details-container ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: "GT America Medium";
+  font-size: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #1e1e1e;
+  padding: 8px 0;
+}
+
+.leadership-details-container ul li:first-child::after {
+  align-items: center;
+  background-color: #e3e5e5;
+  border-radius: 50%;
+  color: #1e1e1e;
+  content: "\e908";
+  display: flex;
+  font-family: "CoreIcons";
+  font-size: 12px;
+  font-weight: bolder;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  width: 20px;
+}
+
+.leadership-details-container ul li:nth-child(2)::after {
+  align-items: center;
+  background-color: #e3e5e5;
+  border-radius: 50%;
+  color: #1e1e1e;
+  content: "\e908";
+  display: flex;
+  font-family: "CoreIcons";
+  font-size: 12px;
+  font-weight: bolder;
+  height: 20px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  width: 20px;
+}
+
+.leadership-details-container ul li:nth-child(-n + 2):hover span {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+}
+
+.leadership-details-container ul li:nth-child(n + 3):hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+}
+
+.leadership-details-container ul li:nth-child(n + 4) {
+  font-family: "GT America Regular";
+}
+
+.leadership-details-container ul li:hover::after {
+  opacity: 1;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.leadership-president {
+  display: flex;
+  gap: 4rem;
+  padding: 64px 72px;
+}
+.leadership-president  * {
+  margin: 0;
+  padding: 0;
+}
+
+.leadership-president-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 676px;
+}
+.president-content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.president-content-container .leadership-president-quote .quote-svg {
+  position: relative;
+}
+.leadership-president-quote span {
+  font-family: "Albertus Medium";
+  font-size: 40px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+}
+.president-content-container .leadership-president-quote .quote-svg img {
+  position: absolute;
+  height: 76px;
+  left: -30px;
+  top: -48px;
+  width: 100px;
+}
+
+.president-message {
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  display: block;
+  font-family: "GT America Bold";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.leadership-president-text{
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: -.1px;
+  font-family: "GT America Regular";
+  font-weight: 400;
+  margin-top: 0;
+  /* border: 1px solid black; */
+}
+
+.president-college-logo-container {
+  width: 300px;
+  height: 46px;
+  margin-bottom: 25px;
+}
+.leadership-divider {
+  margin-left: 72px;
+  margin-right: 72px;
+  border-color: rgb(216, 216, 216);
+  max-width: calc(100% - 144px);
+}
+
+.vice-president-college-logo-container {
+  width: 300px;
+  height: 42px;
+  margin-bottom: 25px;
+}
+
+.director-college-logo-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.director-college-logo-container .college_1 {
+  width: 125px;
+  height: 46px;
+}
+
+.director-college-logo-container .college_2 {
+  width: 125px;
+  height: 46px;
+}
+
+.deputy-director-college-logo-container {
+  width: 80px;
+  height: 75px;
+  margin-bottom: 25px;
+}
+
+.leadership-president-image {
+  width: 560px;
+  /* border: 1px solid red; */
+}
+
+.president-link-item a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.president-link-item a span {
+  font-family: "GT America Medium";
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+
+.president-link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.president-link-item span {
+  font-family: "GT America Medium";
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+
+.president-arrow-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(101, 111, 119);
+}
+
+.president-link-item a:hover .president-arrow-container {
+  background-color: #1e1e1e;
+}
+
+.leadership-president div img {
+  width: 100%;
+  height: 100%;
+}
+
+.leadership-vice-president {
+  display: flex;
+  gap: 4rem;
+  padding: 64px 72px;
+}
+.leadership-vice-president  *{
+  margin: 0;
+  padding: 0;
+}
+
+.leadership-vice-president-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 676px;
+}
+.vice-president-content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.vice-president-content-container h2 {
+  font-family: "Albertus Medium";
+  font-size: 48px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  margin: 0;
+}
+
+.vice-president-message {
+  font-family: "GT America Regular";
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+
+.leadership-vice-president-image {
+  width: 580px;
+}
+
+.vice-president-link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.vice-president-link-item span {
+  font-family: "GT America Medium";
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+
+.vice-president-arrow-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(101, 111, 119);
+}
+
+.vice-president-link-item:hover .vice-president-arrow-container {
+  background-color: #1e1e1e;
+}
+
+.leadership-vice-president div img {
+  width: 100%;
+  height: 100%;
+}
+#director-section h2{
+  font-family: "Albertus Medium";
+  font-size: 48px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  margin: 0;
+}
+#director-section .president-message {
+  font-family: "GT America Regular";
+  font-size: 18px;
+  /* line-height: 1.5; */
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+.leadership-bog {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 72px;
+  margin: 0 12px;
+}
+
+.leadership-bog h2 {
+  /* font-family: "Canela Deck Web"; */
+  font-family: "Albertus Medium";
+  font-size: 48px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  margin: 0;
+}
+
+.leadership-bog .divider {
+  border: 3px solid #1e1e1e;
+  width: 100%;
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+
+.leadership-bog-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.leadership-bog-items p {
+  font-family: "GT America Regular";
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: #1e1e1e;
+}
+
+.leadership-bog-items p strong {
+  font-family: "GT America Bold";
+}
+
+.leadership-bog-items p:nth-child(even) {
+  padding-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 80vh;
+  }
+  .banner-text{
+    padding: 1rem;
+    align-items: center;
+  }
+  .banner-text h1{
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+  }
+  .leadership-details-container{
+    display: none;
+  }
+  .leadership-president{
+    padding: 1rem;
+    gap: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .leadership-president-image{
+    order: 1;
+    width: 100%;
+    padding: 0;
+  }
+  .leadership-divider{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  max-width: 100%
+  }
+  .leadership-president-content{
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    order: 2;
+    width: 100%;
+    gap: 1rem;
+  }
+  .president-content-container{
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .president-content-container *{
+    text-align: center;
+  }
+  .president-content-container h2{
+    width: 100%;
+    font-family: "Albertus Medium";
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .leadership-president-quote{
+    position: relative;
+  }
+  .leadership-president-quote .quote-svg{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    /* top: 0;
+    left: 0; */
+}
+.leadership-president-quote .quote-svg img{
+  /* position: static !important;  */
+  top: 2rem !important;
+  left: 0rem !important;
+  max-width: 100%;
+}
+.president-message{
+  font-size: 20px;
+}
+.leadership-divider{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.leadership-vice-president {
+  padding: 1rem;
+  gap: 1rem;
+  margin: 0;
+  flex-direction: column;
+}
+.leadership-vice-president-image{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.leadership-vice-president-content{
+  padding-left: 0;
+  margin-top: 1rem;
+}
+.vice-president-link-item {
+  display: none;
+}
+.leadership-vice-president-content{
+  width: 100%;
+}
+.vice-president-content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vice-president-content-container h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+#director-section{
+  gap: 1rem;
+}
+#director-section h2{
+  font-size: 32px;
+
+}
+#director-section .president-message {
+  font-size: 18px;
+}
+.leadership-bog{
+  padding: 1rem;
+  margin: 0;
+}
+.divider{
+  margin: 0;
+}
+.leadership-bog-items {
+  grid-template-columns: 1fr;
+}
+.leadership-bog-items *{
+  margin: 0;
+  padding: 0;
+}
+.leadership-bog-items p {
+  text-align: left;
+  font-size: large;
+  margin-bottom: 1rem;
+}
+.leadership-bog-items p:nth-child(even) {
+  padding-left: 0;
+}
+}

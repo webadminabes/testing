@@ -1,0 +1,1019 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("../font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Canela Deck Web";
+    src: url("../font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Trial";
+    src: url("../font/GT-America-Compressed-Light-Trial.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Bold";
+    src: url("../font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Medium";
+    src: url("../font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Regular";
+    src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/Albertus-Medium.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    scroll-behavior: smooth;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(0 0 0 / 65%) 0%, #141414e3 100%), url(https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_1080/v1718715385/10%20iNurture/image_1_apmb5b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-text {
+    width: 100%;
+    padding: 0rem 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.body-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main_content {
+    width: 100%;
+    height: auto;
+}
+
+.image-left-content-right-hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.image-container-80 {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+}
+
+#sec-1 .content-container {
+    padding: 2rem;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    background-color: #992728;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.content-container h1 {
+    font-size: 56px;
+    font-family: "Albertus Medium";
+    margin: 0;
+}
+
+.content-container p {
+    font-size: 20px;
+    font-family: "GT America Regular";
+    margin: 0;
+}
+
+.content-container span {
+    font-size: 20px;
+    font-family: "GT America Regular";
+    margin: 0;
+    font-weight: 800;
+}
+
+.content-container ul {
+    margin: 0;
+}
+
+.content-container li {
+    font-size: 20px;
+    font-family: "GT America Regular";
+    margin-left: -10px;
+    line-height: 1.5;
+}
+
+#sec-1-content-container {
+    right: 7rem;
+}
+
+.heading {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-family: "Albertus Medium";
+    margin-bottom: 1.5rem;
+}
+
+#sec-2 {
+    padding: 2rem 7rem;
+    margin: 0;
+}
+
+.tabs-container-grid {
+    display: grid;
+    padding: 0rem 2rem 2rem 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 2rem;
+}
+
+.tab {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 3px solid #992728;
+}
+
+.tab p {
+    color: #000;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 45px */
+}
+
+#sec-3 {
+    background-color: #151514;
+    padding-bottom: 4rem;
+}
+
+#sec-3 .heading {
+    color: white;
+    padding: 2rem 7rem;
+}
+
+.swiper {
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+}
+
+.slider-tab {
+    padding: 2rem;
+    background-color: white;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.slider-tab1{
+    background: none !important;
+}
+
+.slider-tab img {
+    width: auto;
+    margin-bottom: 6rem;
+
+}
+
+.slider-footer {
+    background-color: #992728;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.slider-footer-heading {
+    font-size: 1.5rem;
+    font-family: "Albertus Medium";
+}
+
+.slider-footer-sub-heading {
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.slider-footer-year {
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#sec-4 {
+    padding-bottom: 4rem;
+}
+
+#sec-4 .heading {
+    padding: 2rem 7rem;
+}
+
+#sec-4 img {
+    width: 100%;
+}
+
+
+#sec-5 {
+    padding: 2rem 7rem;
+    background-color: #151514;
+    color: white;
+}
+
+.sub-head {
+    font-family: "Albertus Medium";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.line-div {
+    height: 50px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.40);
+    align-self: center;
+}
+
+.image-and-content {
+    position: relative;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.image-and-content:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px; 
+    background-color: rgba(255, 255, 255, 0.40); 
+    transform: translateX(-50%); 
+}
+
+
+.image-container {
+    margin-top: 2rem;
+    height: 250px;
+}
+
+.image-container:nth-of-type(odd) {
+    margin-right: 4rem;
+
+}
+
+.image-container:nth-of-type(even) {
+    margin-left: 4rem;
+}
+
+.content-container {
+    height: 350px;
+    display: flex;
+}
+
+/* .content-container:nth-of-type(even) {
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+
+} */
+
+.content-container:nth-of-type(odd) {
+    /* border-right: 1px solid rgba(255, 255, 255, 0.40); */
+    text-align: right;
+}
+
+.image-and-content:last-child .content-container:last-child {
+    border: none;
+}
+
+.offset-div {
+    width: 1.5rem;
+    height: 100%;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.image-and-content:last-child .offset-div:nth-child(1) {
+    margin: 0;
+    border: none;
+}
+
+.image-and-content:last-child .offset-div:nth-child(1) .top-div {
+    height: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+
+}
+
+.text-container {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.text-container:nth-of-type(odd) {
+    padding-right: 1rem;
+    text-align: right;
+}
+
+.text-container:nth-of-type(even) {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.title {
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.info {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    font-family: "GT America Regular";
+    font-style: normal;
+    font-weight: 100;
+}
+
+.info p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+#sec-6 {
+    padding: 2rem 7rem;
+}
+
+.flex-div {
+    min-width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+.flex-col-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 75%;
+}
+
+.flex-col-div-25 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 25%;
+}
+
+.middle-heading {
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Albertus Medium";
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos-container-4,
+.logos-container-2,
+.logos-container-3,
+.logos-container-1 {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-height: 250px;
+}
+
+.logos-container-1 {
+    grid-template-columns: 1fr;
+    margin: 0;
+    /* max-width: 25%; */
+}
+
+.logos-container-2 {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+.logos-container-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.logo img {
+    min-width: 40%;
+    max-width: 100%;
+}
+
+#sec-7 {
+    background-color: #151514;
+    overflow-x: hidden;
+}
+
+#sec-7 .heading {
+    color: white;
+    padding: 2rem 7rem;
+}
+
+#sec-7 .slider-tab {
+    position: relative;
+    min-height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 0;
+}
+
+#sec-7 .slide-footer {
+    padding: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    color: white;
+}
+
+.section-footer-arrow-black {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+.section-footer-arrow-black hr {
+    width: 50%;
+}
+
+#sec-7 .slider-footer-heading {
+    font-size: 2.5rem;
+}
+
+#sec-8 {
+    padding: 2rem 7rem;
+}
+
+.grid-container {
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-cell .image-container {
+    width: 100%;
+    margin: 0;
+}
+
+.grid-cell .year {
+    font-family: "Albertus Medium";
+    font-size: 2rem;
+    color: #992728;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none !important;
+}
+
+#sec-8 #cell-1 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_300,f_auto,q_auto/v1718715527/10%20iNurture/cell1_sochpo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-8 #cell-2 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_300,f_auto,q_auto/v1718715528/10%20iNurture/cell2_tn0kiz.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-8 #cell-3 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_300,f_auto,q_auto/v1718715527/10%20iNurture/cell3_tzzjpv.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-8 #cell-4 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_300,f_auto,q_auto/v1719918996/10%20iNurture/Institution%20Innovation%20Council/zxfwcdmyzgzj7cgiju5p.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-9 {
+    padding: 2rem 7rem 2rem 7rem;
+    background-color: #151514;
+}
+
+#sec-9 .heading {
+    color: #FFF;
+}
+
+.flex-layer-1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-layer-2 {
+    z-index: 1;
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.ranking-image {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.rank-text {
+    color: white;
+    font-family: "Albertus medium";
+    font-size: 2rem;
+    /*position: absolute;*/
+    bottom: -4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-layer-2 .rank-text {
+    bottom: 0;
+}
+
+#sec-9 #image1 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto/v1718715545/10%20iNurture/nirf-1_k6vpa5.png");
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-9 #image2 {
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto/v1718715545/10%20iNurture/nirf-2_tl0azo.png");
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sec-9 #image3 {
+    width: 550px;
+    background: url("https://res.cloudinary.com/dyi2eiqum/image/upload/w_500,f_auto,q_auto/v1718715546/10%20iNurture/nirf-3_fubhw7.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red-sub-heading {
+    color: #992728;
+    text-align: center;
+    font-family: "Albertus Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+}
+
+#sec-10 {
+    padding: 4rem 7rem;
+}
+
+.socials {
+    margin-top: 2rem;
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    font-family: "GT America Regular";
+}
+
+#sec-11 {
+    padding: 0;
+}
+
+
+.banner-content {
+    width: 100%;
+    padding: 2rem 14rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+
+.banner-content a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.banner-content p {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.link-icon-container .icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact-details p{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 450px) {
+
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+    .banner{
+        height: 100svh;
+    }
+    #sec-1{
+        overflow-x: hidden;
+     }
+    #sec-2,
+    #sec-3,
+    #sec-4,
+    #sec-5,
+    #sec-6,
+    #sec-7,
+    #sec-8,
+    #sec-9{
+        padding: 1rem;
+        overflow: hidden;
+        height: auto;
+    }
+    .heading h2,
+    .heading{
+        margin: 0;
+        font-size: 2rem;
+    }
+    .banner-text{
+        width: 100%;
+        padding: 1rem;
+    }
+    .banner-text h1{
+        font-size: 2rem;
+    }
+    .image-left-content-right-hover{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+    .image-container-80{
+        position: static;
+        width: 100%;
+        height: 300px;
+        order: 2;
+    }
+    #sec-1 .content-container {
+        padding: 1rem;
+        position: static;
+        width: 100%;
+        order: 1;
+        background-color: transparent;
+        color: #000;
+    }
+    
+    #sec-2 .tabs-container-grid{
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sec-3 .heading{
+        padding: 0rem;
+        margin-bottom: 2rem;
+    }
+    #sec-3 .swiper{
+        margin-bottom: 8px;
+    }
+
+    #sec-4 .heading{
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+    #sec-4 img{
+        height: auto;
+    }
+    #sec-5{
+        overflow-x: hidden;
+    }
+
+    #sec-5 .content-container{
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+        min-height: 350px;
+    }
+    #sec-5 .offset-div{
+        width: 1rem;
+    }
+    #sec-5 .content-container .text-container{
+        padding-left: 0.5rem;
+    }
+    #sec-5 .content-container .text-container .title{
+        font-size: 1.5rem;
+    }
+    #sec-5 .image-and-content{
+        height: auto;
+    }
+    .image-container{
+        height: 200px;
+        max-width: 100%;
+    }
+    .image-container:nth-of-type(odd){
+        margin-right: 1rem;
+    }
+    .image-container:nth-of-type(even){
+        margin-left: 1rem;
+    }
+
+    #sec-6 {
+        overflow-y: hidden;
+        height: auto;
+    }
+    #sec-6 .logos-container-4{
+        grid-template-columns: 1fr 1fr;
+    }
+    #sec-6 .flex-div{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #sec-6 .logos-container-3{
+        grid-template-columns: 1fr 1fr;
+    }
+    .order-prev{
+        order: 2;
+    }
+    .order-next{
+        grid-column: span 2;
+        order: 3;
+    }
+    .span-2{
+        grid-column: span 2;
+    }
+    .flex-col-div-25{
+        max-width: 100%;
+    }
+
+    #sec-7 .heading{
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    #sec-7 .swiper-2{
+        left: 0 !important;
+    }
+    #sec-7 .section-footer-arrow-black{
+        padding: 0;
+    }
+    
+    #sec-8{
+        overflow-y: hidden;
+    }
+
+    #sec-8 .grid-container{
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 1rem;
+        height: auto;
+    }
+    #sec-9 {
+        overflow-x: hidden;
+    }
+    #sec-9 .flex-layer-1{
+        justify-content: space-between;
+        margin-bottom: 20rem;
+    }
+    #sec-9 .rank-text{
+        font-size: 2rem;
+        bottom: -3rem;
+        z-index: 2;
+    }
+    #sec-9 .flex-layer-2 .rank-text {
+        bottom: 1rem;
+    }
+    #sec-9 .ranking-image{
+        width: 200px !important;
+        height: 300px !important;
+        background-size: contain !important;
+    }
+    #sec-10{
+        padding: 1rem;
+    }
+    .socials{
+        padding: 0;
+    }
+
+    .banner-half-h{
+        height: auto;
+    }
+    /* .banner-half-h .contact-details{
+        flex-direction: column;
+    } */
+    .banner-half-h .contact-details p{
+        font-size: 0.8rem;
+        text-decoration: none !important;
+    }
+    .banner-half-h .banner-content{
+        padding: 1rem;
+    }
+    .banner-half-h .banner-content h1{ 
+        padding: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 420px) {
+    .nirf-description {
+        padding: 1rem 0rem 0rem 1rem !important;
+        width: 406px;
+    }
+    .flex-layer-1 .aos-init img{
+        width: 390px;
+    }
+    .flex-layer-1 {        
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .flex-layer-1 .aos-init img{
+        width: calc(100% - 10px);
+    }    
+    .slider-tab img {
+        width: 250px;
+    }    
+    .slider-footer {
+        height: 100px;
+    }
+}

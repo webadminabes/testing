@@ -1,0 +1,593 @@
+@font-face {
+  font-family: "GT America Regular";
+  src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Albertus-Medium.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(244, 244, 244);
+  scroll-behavior: smooth;
+}
+
+
+/* .banner {
+  width: 100%;
+  height: 300px;
+  padding: 2rem;
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, #141414 100%),
+    url("../assets/admissions-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.banner-text h1 {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 52px;
+  font-weight: 400;
+  font-family: "Albertus Medium";
+}
+
+.banner-text a {
+  margin: 0;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  background: #992728;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Albertus Medium";
+} */
+
+.body-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.left_menu {
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+
+.left_menu .viewItems {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left_menu .viewItems a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.02rem;
+  padding: 30px 40px;
+  border-bottom: 1px solid grey;
+  font-family: "Albertus Medium";
+}
+
+.left_menu .viewItems .master {
+  color: #992728 !important;
+  border-bottom: none !important;
+}
+
+.left_menu .viewItems .active {
+  background: black;
+  color: white;
+}
+
+.main_content {
+  width: 80%;
+  height: auto;
+  padding: 30px 85px;
+  border-left: 1px solid grey;
+}
+
+#progs-offered-description {
+  width: 100%;
+}
+
+#adm-procedure-description,
+#eligibility-description,
+#adm-enquiry-description,
+#docs-required-description,
+#fee-structure-description,
+#payment-procedure-description,
+#refund-policy-description,
+#anti-ragging-description,
+#scholarship-description,
+#scholarship-state-description {
+  width: 100%;
+}
+
+.docs-required-description .remarks-column {
+  max-width: 300px;
+}
+
+.mini-nav-link {
+  color: #545454;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.mini-nav-bar {
+  text-align: justify;
+  font-family: "GT America Regular";
+  font-size: 15px;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 1.3rem;
+  display: flex;
+  gap: 8px;
+}
+
+.main-heading {
+  margin-top: 10px;
+  margin-bottom: 2rem;
+  padding-top: 10px;
+}
+
+.main-heading-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-heading-content h2 {
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0.5rem 0rem;
+}
+.main-heading-content .right-subhead-section {
+  width: 55%;
+  font-family: "GT America Regular";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.main-heading-divider {
+  margin-top: 1.5rem;
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.icon-container {
+  height: 40px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px !important;
+}
+
+.icon-container:hover {
+  background-color: #0e0e0e;
+}
+
+.white-icon-button {
+  text-decoration: none;
+  font-family: "GT America Regular";
+  display: flex;
+  height: fit-content;
+  width: max-content;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  padding: 2px 14px;
+  margin-top: 0;
+  color: black;
+}
+
+.white-icon-button .icon-container:hover {
+  background-color: white;
+}
+
+.red-heading {
+  font-family: "Albertus Medium";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #992728;
+  margin: 2rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+}
+table a {
+  color: black;
+}
+table a:hover {
+  color: #992728;
+}
+table th {
+  background-color: #000;
+  color: #fff;
+  font-family: "GT America Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px 24px;
+  text-align: start;
+  line-height: 24px;
+}
+
+/* th:first-child {
+    padding-right: 14px;
+} */
+
+td {
+  padding: 15px 24px;
+  color: #000;
+  font-family: "Albertus Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start;
+}
+
+tr {
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.white-background-black-text {
+  background-color: white;
+  color: black;
+}
+.white-background {
+  background-color: white;
+}
+
+.eligibility-description .sub-category {
+  font-family: "Albertus Medium";
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.numbered-list {
+  display: flex;
+  align-items: center;
+  font-family: "GT America Regular";
+  border-bottom: 1px solid grey;
+  padding: 1rem 0;
+  height: max-content;
+}
+
+.numbered-list .left {
+  padding: 0px 25px;
+}
+
+.numbered-list .left p {
+  width: 40px;
+  height: 40px;
+  background: #151514;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.numbered-list .right {
+  display: flex;
+  align-items: center;
+}
+.numbered-list .right p {
+  font-size: 18px;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+.numbered-list .right p a {
+  text-decoration: none;
+  color: black;
+}
+
+.numbered-list .right p a:hover {
+  color: #992728;
+}
+
+ul {
+  margin: 2rem 0rem;
+}
+
+ul li {
+  font-family: "GT America Regular";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-and-qr {
+  margin-top: 1.5rem;
+  margin-left: 6.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.btn-and-qr img {
+  width: 150px;
+}
+
+iframe {
+  width: 100%;
+  height: 900px;
+}
+
+
+/* Mobile responsive modifications */
+#adm-enquiry-description #table-mob {
+  display: none;
+}
+#hr-mob {
+  display: none;
+}
+#docs-required-description #table-mob {
+  display: none;
+}
+#fee-structure-description .pdf-icon {
+  display: none;
+}
+#fee-structure-description #table1-mob {
+  display: none;
+}
+#fee-structure-description #table2-mob {
+  display: none;
+}
+#fee-structure-description #table3a-mob {
+  display: none;
+}
+#fee-structure-description #table3b-mob {
+  display: none;
+}
+#fee-structure-description #table4-mob {
+  display: none;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 450px) {
+  :root {
+    --heading-size: 32px;
+  }
+  iframe {
+    width: 100%;
+    height: 500px;
+} 
+
+  /* .banner {
+    height: 40vh;
+  }
+  .banner-text {
+    margin-top: 1.5rem;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+  } */
+
+  /* Admission Enquiry page */
+  #adm-enquiry-description #table-deks {
+    display: none;
+  }
+  #adm-enquiry-description #table-mob {
+    display: block;
+  }
+  table th {
+    font-size: 18px;
+  }
+
+
+  /* Document required page */
+  #hr-deks {
+    display: none;
+  }
+  #hr-mob {
+    display: block;
+  }
+  #docs-required-description .main-heading-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #docs-required-description .main-heading-content h2 {
+    font-size: var(--heading-size);
+    display: block;
+    width: 100%;
+  }
+  #docs-required-description .main-heading-content .right-subhead-section {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+  }
+  #docs-required-description #table-deks {
+    display: none;
+  }
+  #docs-required-description #table-mob {
+    display: block;
+  }
+  #docs-required-description .red-heading {
+    font-size: var(--heading-size);
+    margin-bottom: 10px;
+  }
+  #docs-required-description ul {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+  #docs-required-description ul li {
+    list-style-position: inside;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+
+
+  /* Fee Structure Page */
+  #fee-structure-description .arrow-btn-black {
+    display: none;
+  }
+  #fee-structure-description .pdf-icon {
+    display: block;
+    background: #84888c;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+  }
+  #fee-structure-description .pdf-icon a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #fee-structure-description .main-heading-content {
+    justify-content: flex-start;
+  }
+  #fee-structure-description #table1-deks {
+    display: none;
+  }
+  #fee-structure-description #table1-mob {
+    display: block;
+  }
+  #fee-structure-description #table1-mob tr{
+    width: 100%;
+  }
+  #fee-structure-description ul{
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  #fee-structure-description ul li{
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  #fee-structure-description #table2-deks {
+    display: none;
+  }
+  #fee-structure-description #table2-mob {
+    display: block;
+  }
+  #fee-structure-description #table3-deks {
+    display: none;
+  }
+  #fee-structure-description #table3a-mob {
+    display: block;
+  }
+  #fee-structure-description #table3b-mob {
+    display: block;
+  }
+  #fee-structure-description .red-heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #fee-structure-description .points .number{
+    display: none;
+  }
+  #fee-structure-description .points{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #fee-structure-description .btn-and-qr{
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: center;
+  }
+  #fee-structure-description .points .explanation{
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+  }
+  #fee-structure-description #table4-deks {
+    display: none;
+  }
+  #fee-structure-description #table4-mob {
+    display: block;
+  }
+
+
+  /* payment-procedure page */
+  #payment-procedure-description .red-heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #payment-procedure-description .points .number{
+    display: none;
+  }
+  #payment-procedure-description .points{
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+    padding: 0;
+  }
+  #payment-procedure-description .btn-and-qr{
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  #payment-procedure-description .btn-and-qr img{
+    width: 120px;
+    height: auto;
+  }
+  #payment-procedure-description .points .explanation{
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+    padding: 10px 0;
+  }
+  #payment-procedure-description ul{
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  #payment-procedure-description ul li{
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+
+}

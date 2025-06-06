@@ -1,0 +1,1576 @@
+@font-face {
+    font-family: "Canela Web";
+    src: url("../font/Canela-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Canela Deck Web";
+    src: url("../font/CanelaDeck-Regular-Web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Trial";
+    src: url("../font/GT-America-Compressed-Light-Trial.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Bold";
+    src: url("../font/GT-America-Standard-Bold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Medium";
+    src: url("../font/GT-America-Standard-Medium.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GT America Regular";
+    src: url("../font/GT-America-Standard-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Albertus Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/Albertus-Medium.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    scroll-behavior: smooth;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center; !important
+    justify-content: center; !important
+    position: relative;
+}
+
+.banner-text {
+    width: 100%;
+    padding: 0rem 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.banner-text a {
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.menu-bar {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #FFF;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+}
+
+.menu-tabs {
+    display: flex;
+    width: 90%;
+    overflow-x: hidden;
+}
+
+.menu-tab {
+    min-width: 220px;
+    max-width: 220px;
+    display: flex;
+    font-family: "Albertus Medium";
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    overflow-x: hidden;
+    border-right: 1px solid #FFF;
+    transition: transform 0.5s ease;
+
+}
+
+.menu-tab:last-child {
+    border: none;
+}
+
+.arrow-btn-white {
+    position: sticky;
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: 100%;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px 0;
+    color: white;
+    margin: 0;
+    max-width: fit-content;
+}
+
+.arrow-btn-white .round-icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+#menu-arrow-1 {
+    width: 7%;
+    padding: 0;
+    padding-left: 25px;
+}
+
+#menu-arrow-2 {
+    width: 5%;
+    margin: 0;
+    margin-right: -10px;
+}
+
+.body-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main_content {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #F3F4F4;
+    padding: 0rem 7rem 2rem 7rem;
+}
+
+.heading {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-family: "Albertus Medium";
+    margin-bottom: 1.5rem;
+}
+
+.red-heading-middle {
+    color: #992728;
+    text-align: center;
+    font-family: "Albertus Medium";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 72px */
+}
+
+.sub-heading-middle {
+    margin-top: 1rem;
+    color: #6C6C6C;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+    text-align: center;
+}
+
+.tabs-container-grid {
+    display: grid;
+    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.tab {
+    padding: 1rem;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 3px solid #992728;
+}
+
+.tab img{
+    padding: 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.tab p {
+    color: #000;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 45px */
+}
+
+#sec-2 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-2 h2 {
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+/* Industry Training  */
+
+.image-tabs-container {
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.2rem;
+    overflow: hidden;
+}
+
+.image-tab {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 1s ease;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.image-tab img {
+    transition: transform 0.5s ease;
+}
+
+.image-tab:hover img {
+    transform: scale(1.25) rotate(2deg);
+}
+
+.image-tab img {
+    width: 100%;
+    height: 100%;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.img-title {
+    color: #FFF;
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    bottom: 1rem;
+    padding-right: 1rem;
+    font-family: "Albertus Medium";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 120%;
+    /* 48px */
+    z-index: 2;
+}
+
+.img-title p {
+    margin: 0;
+}
+
+#sec-4 {
+    background-color: black;
+    color: white;
+}
+
+.sub-head {
+    font-family: "Albertus Medium";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.line-div {
+    height: 50px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.40);
+    align-self: center;
+}
+
+.sem-details {
+    color: #FFF;
+    text-align: center;
+    font-family: "Albertus Medium";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 60px */
+}
+
+.image-and-content {
+    width: 100%;
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.image-container {
+    margin-top: 2rem;
+    height: 250px;
+}
+
+.image-container:nth-of-type(odd) {
+    margin-right: 4rem;
+
+}
+
+.image-container:nth-of-type(even) {
+    margin-left: 4rem;
+}
+
+.content-container {
+    height: 350px;
+    display: flex;
+}
+
+.content-container:nth-of-type(even) {
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.content-container:nth-of-type(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.40);
+    text-align: right;
+}
+
+.image-and-content:last-child .content-container:last-child {
+    border: none;
+}
+
+.offset-div {
+    width: 1.5rem;
+    height: 100%;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.image-and-content:last-child .offset-div:nth-child(1) {
+    margin: 0;
+    border: none;
+}
+
+.image-and-content:last-child .offset-div:nth-child(1) .top-div {
+    height: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+
+}
+
+.text-container {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.text-container:nth-of-type(odd) {
+    padding-right: 1rem;
+    text-align: right;
+}
+
+.text-container:nth-of-type(even) {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.title {
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.info {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    font-family: "GT America Regular";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.info p {
+    margin: 0;
+}
+
+#automotiveCse1 {
+    background: url("../assets/academics/cse/ps.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse2 {
+    background: url("../assets/academics/cse/ps1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse3 {
+    background: url("../assets/academics/cse/webtech.jpg");
+    background-size: contain;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#automotiveCse4 {
+    background: url("../assets/academics/cse/DS.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse5 {
+    background: url("../assets/academics/cse/Cloud.jpg");
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse6 {
+    background: url("../assets/academics/cse/ps.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse7 {
+    background: url("../assets/academics/cse/webtech.jpg");
+    background-size: contain;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse8 {
+    background: url("../assets/academics/cse/DS.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#automotiveCse9 {
+    background: url("../assets/academics/cse/cloudComp.jpg");
+    background-size: cover;
+    height: 43vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#automotiveCse10 {
+    background: url("../assets/academics/cse/ps1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#automotiveCse11 {
+    background: url("../assets/academics/cse/DBMSTraining.jpeg");
+    background-size: contain;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#automotiveCse12 {
+    background: url("../assets/academics/cse/DS.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#automotiveCse13 {
+    background: url("../assets/academics/cse/CompanyReadinessProgram.jpg");
+    background-size: cover;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-container {
+    margin-top: 2.5rem;
+    height: 580px;
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.slider-tab {
+    height: 100%;
+    position: relative;
+    transition: transform 1s ease;
+}
+
+.slider-content {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+.slider-content h1 {
+    font-family: "Albertus Medium";
+    font-size: 36px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.slider-content p {
+    font-family: "GT America Regular";
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.slide-footer {
+    background-color: #992728;
+    color: white;
+    padding: 1rem;
+
+}
+
+.slide-footer h2 {
+    color: #FFF;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+
+}
+
+.slide-footer h3 {
+    margin: 0;
+    color: #FFF;
+    font-family: "GT America Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+}
+
+#slider1CSE {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dzvbudd9i/image/upload/f_auto,q_auto/v1/abeswebsite2/cse-page/Screenshot_2025-03-02_185043_lmwnks"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider2CSE {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dzvbudd9i/image/upload/f_auto,q_auto/v1/abeswebsite2/cse-page/Screenshot_2025-03-02_184731_ioxw6l"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#slider3CSE {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dzvbudd9i/image/upload/f_auto,q_auto/v1/abeswebsite2/cse-page/Screenshot_2025-03-02_184934_j7ybru"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider4CSE {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("https://res.cloudinary.com/dzvbudd9i/image/upload/f_auto,q_auto/v1/abeswebsite2/cse-page/Screenshot_2025-03-02_185150_ddv8se"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#slider5 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url("../assets/alumni-association/higher-studies5.jpeg"), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section4 {
+    width: 100%;
+    padding: 2rem 7rem;
+    color: white;
+    background-color: black;
+}
+
+.section-footer-arrow-black {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#sec-6 {
+    background-color: #151514;
+    color: white;
+}
+
+.glimpses-section {
+    background-color: #151514;
+    color: #fff;
+    margin-top: 0;
+    padding: 32px 0;
+}
+
+.placement-glimpses {
+    display: grid;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    grid-template-columns: 4fr 2.5fr 1fr 2fr 1fr 1fr 2.5fr;
+    grid-template-rows: 240px 240px 35px 200px;
+}
+
+.placement-glimpses .grid-bg {
+    background-color: #fff;
+    color: #000;
+}
+
+.placement-glimpses .grid-item-1 {
+    grid-row-start: 1;
+    grid-row-end: -1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.placement-glimpses .grid-item-1 p {
+    padding: 0;
+    margin: 4px;
+    /* font-size: 52px; */
+    font-size: 2.9rem;
+    color: #fff;
+    font-family: "Albertus Medium";
+
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.placement-glimpses .grid-item-2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.placement-glimpses .grid-item-3 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+}
+
+.placement-glimpses .grid-item-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.placement-glimpses .grid-item-5 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #fff;
+}
+
+.placement-glimpses .grid-item-5 .percent {
+    font-family: "Albertus Medium";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px 24px 0px 24px;
+}
+
+.placement-glimpses .grid-item-5 .percent-text {
+    font-family: "GT America Regular";
+    font-size: 20px;
+    font-style: normal;
+    margin: 0px 24px 0px 24px;
+}
+
+.placement-glimpses .grid-item-6 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: -4;
+    grid-row-end: -3;
+}
+
+.placement-glimpses .grid-item-7 {
+    grid-column-start: -7;
+    grid-column-end: -5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.placement-glimpses .grid-item-8 {
+    grid-column-start: -5;
+    grid-column-end: -2;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.placement-glimpses .grid-item-9 {
+    grid-column-start: -2;
+    grid-column-end: -1;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.glimpse-numbers {
+    color: #992728;
+    font-family: "Albertus Medium";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 4rem; */
+    margin: 16px 24px 0px 24px;
+}
+
+.glimpse-text {
+    color: #000;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0px 24px 0px 24px;
+}
+
+/* Internship Offers */
+
+.internship-image-container{
+    width: 100%;
+    overflow: hidden;
+}
+.internship-image{
+    display: flex !important;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    align-items: center !important;
+}
+.internship-image img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* #internship1 {
+    background: url("../assets/mechanical/home/cognizant.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#internship2 {
+    background: url("../assets/mechanical/home/cisco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#internship3 {
+    background: url("../assets/mechanical/home/chetu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80%;
+}
+
+#internship4 {
+    background: url("../assets/mechanical/home/mckinsey.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+} */
+
+/* section 8  */
+
+#sec-8 .image-tab {
+    height: 200px;
+}
+
+#sec-8 {
+    background-color: #151514;
+    color: white;
+}
+
+#sec-8 .image-tabs-container {
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.padding-1rem {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+#sec-8 .image-tab {
+    background-color: white;
+    /* padding: 1rem 0; */
+}
+#sec-8 .image-tab img{
+    width: 100%;
+    object-fit: fill !important;
+}
+
+#placement1 {
+    background: url("../assets/mechanical/home/microsoft.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement2 {
+    background: url("../assets/mechanical/home/byjus.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement3 {
+    background: url("../assets/mechanical/home/adobe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement4 {
+    background: url("../assets/mechanical/home/amazon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement5 {
+    background: url("../assets/mechanical/home/cognizant.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement6 {
+    background: url("../assets/mechanical/home/cisco.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement7 {
+    background: url("../assets/mechanical/home/chetu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#placement8 {
+    background: url("../assets/mechanical/home/mckinsey.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+/* section 9  */
+
+#sec-9 {
+    padding: 0;
+}
+
+.campus-section {
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.campus-container {
+    margin-left: 32px;
+    padding-left: 72px;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.campus-container .campus-content {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+    max-width: 450px;
+    z-index: 1000;
+}
+
+.campus-images-container {
+    flex: 2;
+    display: flex;
+    overflow: hidden;
+}
+
+.campus-images {
+    z-index: 1;
+    transition: transform 1s ease-in-out;
+    flex: 2;
+    display: flex;
+    gap: 15px;
+    overflow: visible;
+}
+
+.campus-images .campus-img {
+    flex: 0 0 70%;
+    /* Adjust the width of each image as needed */
+    text-align: center;
+    transition: transform 0.8s ease-in-out;
+}
+
+.campus-images .campus-img img {
+    margin-top: 60px;
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.campus-container .campus-content h2 {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px;
+}
+
+.campus-container .campus-content p {
+    color: #000;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+#sec-10 {
+    background-color: #151514;
+    color: #fff;
+}
+
+#sec-10 .image-tabs-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+#sec-10 .arrow-btn-white,
+#sec-11 .arrow-btn-black {
+    max-width: fit-content;
+}
+
+/* section 11  */
+
+.news-tab-container {
+    /* display: flex; */
+    width: 100%;
+    min-height: max-content;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    min-height: max-content !important;
+}
+
+.news-tab {
+    display: flex !important;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100% !important;
+}
+
+.news-tab-container img {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.news-title {
+    color: #000;
+    font-family: "Albertus Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.news-content {
+    color: #4D4D4D;
+    text-align: justify;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.arrow-btn-black {
+    position: sticky;
+    align-self: baseline;
+    text-decoration: none;
+    font-family: "GT America Regular";
+    display: flex;
+    height: 100%;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px 0;
+    color: black;
+    margin: 0;
+}
+
+.arrow-btn-black .round-icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+/* section 12  */
+#sec-12 {
+    padding: 0;
+}
+
+.banner-content {
+    width: 100%;
+    padding: 0rem 14rem;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Albertus Medium";
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+
+.banner-content a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #992728;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Albertus Medium";
+}
+
+.banner-content p {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    font-family: "GT America Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.link-icon-container .icon-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px !important;
+}
+
+.mobile {
+    display: none;
+}
+
+#sec-2 .heading {
+    display: none;
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 450px) {
+    section {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .heading h2 {
+        font-size: 2.4rem;
+    }
+
+    #mini-nav-bar-mob i {
+        vertical-align: middle;
+    }
+
+    #mini-nav-bar-mob {
+        margin-bottom: 0;
+    }
+
+    /* banner */
+
+    .banner {
+        height: 100svh;
+        overflow: hidden;
+    }
+
+    .banner-text {
+        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    .banner-text h1 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-text p {
+        text-align: justify;
+        line-height: 1.4;
+        font-size: 18px;
+        text-align: center
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    /* about the program  */
+
+    .red-heading-middle {
+        font-size: 2rem;
+    }
+
+    .tabs-container-grid {
+        grid-template-columns: 1fr;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    #sec-2 {
+        padding-top: 0;
+    }
+
+    #sec-2 {
+        grid-template-columns: 1fr;
+    }
+
+    #sec-2 .heading {
+        display: block;
+        margin: 0;
+    }
+
+    #sec-2 .heading h2 {
+        font-size: 2.5rem;
+    }
+
+    #course-roadmap {
+        background-size: contain;
+        max-height: 275px;
+    }
+
+    #sec-3 .image-tabs-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Automotive technology  */
+    .sub-head {
+        font-size: 1.7rem;
+    }
+
+    .sem-details {
+        font-size: 1.7rem;
+    }
+
+    .image-container {
+        height: 200px;
+    }
+
+    .image-container:nth-of-type(odd) {
+        margin-right: 2rem;
+    }
+
+    .image-container:nth-of-type(even) {
+        margin-left: 2rem;
+    }
+
+    /* top achievers  */
+
+    #sec-5 .section-footer-arrow-black {
+        margin-top: 0rem;
+    }
+
+    /* Placement glimpses 2023 */
+
+
+    .glimpses-section {
+        padding: 0;
+    }
+
+    .glimpses-section {
+        padding: 0;
+    }
+
+    .placement-glimpses {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .placement-glimpses .grid-item-1 {
+        margin-bottom: 1rem;
+    }
+
+    .placement-glimpses .grid-item-1 p {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .glimpses-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .placement-glimpses .grid-item-5 {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .placement-glimpses .grid-item-5 .percent {
+        color: #992728;
+        font-size: 2rem;
+        margin: 0;
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+
+    .placement-glimpses .grid-item-5 .percent-text {
+        margin: 0;
+        padding: 1rem;
+        padding-top: 0;
+    }
+
+    .glimpse-numbers {
+        font-size: 2rem;
+        margin: 0rem;
+        padding: 1rem;
+        padding-bottom: 0;
+
+    }
+
+    .glimpse-text {
+        margin-bottom: 6px;
+        margin: 0rem;
+        padding: 1rem;
+        padding-top: 0rem;
+        margin-left: 3px;
+    }
+
+    /* Internship offers  */
+
+    #sec-7 .image-tabs-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #sec-7 .image-tab {
+        max-height: 150px;
+    }
+
+    #sec-7,
+    #sec-8 {
+        gap: 0;
+    }
+
+    #sec-8 .image-tabs-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #sec-8 .image-tab {
+        max-height: 100px;
+    }
+
+    .campus-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 16px 16px 16px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .campus-container .campus-content h2 {
+        font-size: 2rem;
+        line-height: 43px;
+    }
+
+    .campus-section {
+        margin-bottom: 40px;
+    }
+
+    .campus-images .campus-img {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .campus-images .campus-img img {
+        margin-top: 0px;
+        height: 100%;
+    }
+
+    .chevron-icons {
+        margin: 10px 0;
+    }
+
+
+    /* Facilities and labs  */
+
+    #sec-10 .image-tabs-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Events and news  */
+    #sec-11 {
+        gap: 0;
+    }
+
+    #sec-11 .news-tab-container {
+        overflow-x: hidden;
+        padding-top: 0;
+    }
+
+    /* #sec-11 .news-tab {
+        min-width: 300px;
+    } */
+
+
+
+    /* Training Roadmap  */
+
+    .content-container {
+        overflow: hidden;
+    }
+
+    .text-container {
+        padding-left: 0;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+
+    /* Slider CSS */
+
+    .heading h2 {
+        margin: 0;
+    }
+
+    .slider-container {
+        height: 550px;
+    }
+
+    .slider-tab {
+        height: 97%;
+        min-width: 300px;
+    }
+
+    .slider-content {
+        width: 100%;
+    }
+
+    /* bottom banner */
+
+    .banner-half-h {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-content {
+        position: static;
+        padding: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+        padding: 0 3rem;
+        line-height: 1.4;
+    }
+
+    .menu-tab {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .body-section {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+}
+

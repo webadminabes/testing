@@ -1,0 +1,320 @@
+
+@font-face {
+  font-family: "Canela Web";
+  src: url("/font/Canela-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Canela Deck Web";
+  src: url("/font/CanelaDeck-Regular-Web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Bold";
+  src: url("/font/GT-America-Standard-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Medium";
+  src: url("/font/GT-America-Standard-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT America Regular";
+  src: url("/font/GT-America-Standard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "anziano";
+  src: url("/font/AnzianoPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Albertus Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/Albertus-Medium.ttf') format('truetype');
+}
+
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(243, 244, 244);
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 6.5fr;
+  grid-gap: 11rem;
+  z-index: 100;
+  padding: 0px 104px;
+  box-sizing: border-box;
+  /* transition: background-color .5s cubic-bezier(.77, 0, .175, 1); */
+}
+.navbar:has(p.dropdown-open) {
+  /* border-bottom: 1px solid #3A3A3A; */
+  background: #212121;
+}
+
+.navbar .logo-container a{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.abes-logo{
+  width: 125px;
+}
+
+.navbar .navbar-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Albertus Medium";
+  font-weight: medium;
+}
+
+.navbar .navbar-items p {
+  cursor: pointer;
+  margin: 0;
+  display: flex;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  font-family: "Albertus Medium";
+}
+
+.navbar .navbar-items p a {
+  text-decoration: none;
+}
+
+.navbar-expand-icon {
+  margin-left: 8px;
+  font-size: 14px;
+  font-family: "GT America Bold";
+}
+
+.contact-btn {
+  /* background-color: rgb(153, 39, 40); */
+  background: #992728;
+  border: none;
+  /* font-size: 14px; */
+  /* font-family: "Canela Deck Web"; */
+  font-size: 14px;
+  font-family: "Albertus Medium";
+  color: #ffffff;
+  padding: 8px 25px;
+  z-index: 1000;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+
+
+
+
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 220px;
+  height: 310px;
+  background-color: white;
+  font-size: 16px;
+  font-family: "GT America Bold";
+  font-weight: 300;
+  color: black;
+  text-align: flex-start;
+  padding: 20px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.menu-dropdown p {
+  cursor: pointer;
+}
+
+.menu-dropdown p:hover {
+  color: rgb(118, 43, 42);
+}
+
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-icon i {
+  font-size: 18px;
+  color: black;
+}
+
+.menu-dropdown-wrapper {
+  display: none;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+  width: 100%;
+  background: rgba(12, 12, 12, 0.97);
+}
+
+.menu-dropdown-container{
+  display: flex;
+  width: 100%;
+  padding: 24px 104px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.menu-dropdown-container a {
+  text-decoration: none;
+  color: #FFF;
+  font-style: normal;
+}
+
+.menu-item-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  /* flex: 1 0 0; */
+  align-self: stretch;
+}
+
+.menu-item-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.menu-item-section .menu-section-link{
+  display: flex;
+  padding: 8px 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  font-family: "Albertus Medium";
+  color: #FFF;
+}
+.menu-item-section .menu-section-heading{
+  font-family: "GT-America-Standard-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 4px;
+  color: #F3B831;
+}
+.menu-item-section .menu-section-heading a{
+  color: inherit;
+  font-family: inherit;
+}
+
+.masters-container {
+  padding-top: 51px !important;
+}
+
+.navbar .navbar-items > p:hover {
+  color: #ffffff;
+  font-weight: normal;
+  /* border: 1px solid red; */
+}
+
+.navbar-items p.dropdown-open {
+  font-weight: 500;
+  background: #0C0C0C;
+}
+
+.navbar-items > p.dropdown-open {
+  color: #ffffff;
+  font-weight: normal;
+}
+.navbar .navbar-items > p.dropdown-open:hover {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.navbar .navbar-items > p.dropdown-open:hover {
+  background: #0C0C0C;
+}
+
+.link-animation{
+    overflow: hidden;
+    position: relative;
+    vertical-align: top
+}
+
+.link-animation:after {
+    background: currentColor;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    -webkit-transition: -webkit-transform .7s cubic-bezier(.19, 1, .22, 1);
+    transition: -webkit-transform .7s cubic-bezier(.19, 1, .22, 1);
+    -moz-transition: transform .7s cubic-bezier(.19, 1, .22, 1), -moz-transform .7s cubic-bezier(.19, 1, .22, 1);
+    transition: transform .7s cubic-bezier(.19, 1, .22, 1);
+    transition: transform .7s cubic-bezier(.19, 1, .22, 1), -webkit-transform .7s cubic-bezier(.19, 1, .22, 1), -moz-transform .7s cubic-bezier(.19, 1, .22, 1);
+    width: 100%;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    transform-origin: right center
+}
+
+.link-animation:hover:after{
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    transform-origin: left center
+}
+
+.link-animation {
+    display: inline-block
+}
+
