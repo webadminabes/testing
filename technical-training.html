@@ -9,7 +9,7 @@
     </title>
     <meta name="robots" content="index, follow" />
 
-	<link rel="canonical"  href="https://abes.ac.in/technical-training.html/">	
+	<link rel="canonical"  href="https://abes.ac.in/training.html/">	
 
     <meta
       name="description"
@@ -41,8 +41,7 @@
     <script src="./scripts/footer.js" defer></script>
     <script src="./scripts/header.js" defer></script>
     <link rel="stylesheet" href="./styles/ValueCourses.css" />
-    <link rel="stylesheet" href="./styles/tech-training.css" />
-    <link rel="stylesheet" href="/styles/academics.css" />
+    <link rel="stylesheet" href="./styles/training.css" />
     <!-- <link href="https://fonts.cdnfonts.com/css/albertus-medium" rel="stylesheet"> -->
     <link
       rel="stylesheet"
@@ -61,7 +60,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="./scripts/script.js" defer></script>
-
+    <script src="/scripts/valueCourses.js" defer></script>
+    <script src="./scripts/home-screen.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"></script>
     <!-- <style>
       .value-padding {
@@ -71,15 +71,13 @@
       }
     </style> -->
     <style>
-      .banner-TT {
+      .banner {
         width: 100%;
         height: 300px;
         position: relative;
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url("./assets/technical-training/Technical\ training.jpg");
-        background-size: cover;
+          url("./assets/training/valueaddedcourse_header.png");
       }
-
       .banner-text {
         height: 270px;
         width: 100%;
@@ -100,389 +98,292 @@
         padding-top: 20px;
         font-family: "Albertus Medium";
       }
+      .training-container-images{
+        max-width: 100%;
+      }
+      .training-container-images img{
+        height: 300px !important;
+      }
+      .value-courses-images{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+      }
+      @media(max-width: 480px){
+        .value-courses-images{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+
+      }
+      }
+
     </style>
   </head>
   <body>
+    <!-- <div class="banner-image-container">
+      <div id="navbar-container-Course"></div>
+      <div class="banner-image-content">
+        <img
+          class="background-img" id="background-img-deks"
+          src="https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_1600/v1718627537/valueaddedcourse_header_bx1egb.png"
+          alt="Image"
+        />
+        <img
+          class="background-img" id="background-img-mob"
+          src="https://res.cloudinary.com/dyi2eiqum/image/upload/f_auto,q_auto,w_450,h_540,c_fill/v1718627537/valueaddedcourse_header_bx1egb.png"
+          alt="Image"
+        />
+        <h1>Value Added Courses</h1>
+      </div>
+    </div> -->
     <div id="navbar-container-Course"></div>
-    <div class="banner-TT">
+    <div class="banner">
       <div class="banner-text">
-        <h1>Technical Training</h1>
+        <h1>Trainings at ABES</h1>
+        <h1 class="heading-small">Outshine your Interviews</h1>
       </div>
     </div>
 
-    <div class="section1 value-padding">
-      <h1 id="heading">"Opportunities don't happen, you create them."</h1>
-      <h3 id="heading-sub">Let us create yours!</h3>
-      <p>
-        Training is essential for engineering students because it equips them
-        with the necessary knowledge, hard & soft skills, and experiences to
-        excel in their chosen field and to meet the demands of the ever-evolving
-        engineering industry. It prepares them to tackle real-world challenges,
-        work effectively in multidisciplinary teams, and stay with the latest
-        technological advancements.
-      </p>
+    <!-- <div class="Course-content value-padding">
+      <div class="header-grid-container">
+        <div class="header-image">
+          <img src="./assets/image 37.jpg" alt="" />
+        </div>
+        <div data-aos="fade-left" class="header-content">
+          <div>
+            “The more importance we give to Skill development, the more
+            competent will be our youth”.
+          </div>
+          <div class="by-content">-Shri Narendra Modi, Honorable PM India.</div>
+        </div>
+      </div>
+    </div> -->
 
+    <div data-aos="fade-up" class="valueCourse-description value-padding">
+      ABES Engineering College is committed to nurturing the academic and
+      professional growth of its students. In line with this commitment, we
+      offer a wide range of training programs that are designed to enhanced student's
+      technical skills and overall personality
+      development. These programs primarily encompass the Soft Skills and
+      Technical Training, which are integral components of our educational
+      approach.
+    </div>
+      <div data-aos="fade-up" class="valueCourse-description value-padding">
+      "All trainings have been curated to make sure they have a dirct impact on employability"
+    </div>
+
+    <div class="value-training-container value-padding">
+      <div class="value-training-heading">
+        <h2>Trainings</h2>
+      </div>
+      <hr class="table-divider" />
+
+      <div class="value-courses-images">
+        <div data-aos="fade-up" class="training-container-images">
+          <img src="./assets/tech-training.jpg" alt="" />
+
+          <div class="value-images-content">
+            <a class="value-images-content-heading" href="technical-training-new.html"
+              >Technical Training</a
+            >
+            <a href="technical-training-new.html" class="arrow-btn-white">
+              <div class="round-icon-container">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <div class="arrow-text">
+                Student Technical Enhancement Program
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="training-container-images">
+          <img src="./assets/training/softSkillTraining.png" alt="" />
+
+          <div class="value-images-content">
+            <a
+              class="value-images-content-heading"
+              href="softskills-training.html"
+              >Soft Skills Training</a
+            >
+            <a href="softskills-training.html" class="arrow-btn-white">
+              <div class="round-icon-container">
+                <i class="fas fa-arrow-right"></i>
+              </div>
+              <div class="arrow-text">
+                Student Employability Enhancement Program
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="training-sub">
+        <div class="table-heading">
+          <h2>Why to participate in our customized training programs?</h2>
+        </div>
+
+        <div class="sub-grid">
+          <div class="training-sub-content">
+            <p class="sub-para">To become a proficient programmer and coder</p>
+            <hr class="grid-hr">
+          </div>
+          <div class="training-sub-content">
+            <p class="sub-para">
+              To achieve higher star ranking on international coding platforms
+            </p>
+            <hr class="grid-hr">
+          </div>
+          <div class="training-sub-content">
+            <p class="sub-para">
+              To strengthen your skills with emerging technologies
+            </p>
+            <hr class="grid-hr">
+          </div>
+          <div class="training-sub-content">
+            <p class="sub-para">
+              To crack interviews of top-notch global tech companies
+            </p>
+            <hr class="grid-hr">
+          </div>
+          <div class="training-sub-content">
+            <p class="sub-para">
+              To hone your communication and public speaking skills
+            </p>
+            <hr class="grid-hr">
+          </div>
+          <div class="training-sub-content">
+            <p class="sub-para">To feel more confident about yourself!</p>
+            <hr class="grid-hr">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--     <div class="explore-container">
       <div class="explore-header-container main-heading-black">
-        <h2>Center of excellence</h2>
+        <h2>Want more??</h2>
       </div>
       <hr class="divider" />
 
       <div class="explore-images-container">
-        <div data-aos="fade-up" class="explore-images sec1-img">
-          <img
-            src="./assets/Images for Training/COE for networks (CISCO).jpg"
-            alt="clubs"
-          />
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/1 Industry Oriented.webp" alt="img" />
           <div class="explore-content">
             <div>
-              <span class="explore-content-heading sec1-img-content"
-                >COE for networks (CISCO)
+              <span class="explore-content-heading"
+                >Industry orienrted programs
               </span>
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="explore-images sec1-img">
-          <img
-            src="./assets/Images for Training/COE blockchain (IDS).jpg"
-            alt="TedX"
-          />
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/2 Well equipped rooms.jpg" alt="img" />
           <div class="explore-content">
-            <div class="explore-content-heading sec1-img-content">
-              COE blockchain (IDS)
+            <div class="explore-content-heading">
+              Well-equipped rooms for GD and PI
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="explore-images sec1-img">
-          <img
-            src="./assets/Images for Training/COE Cyber Security (CompTIA).jpg"
-            alt="genero"
-          />
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/3 Dedicated Labs.jpg" alt="img" />
           <div class="explore-content">
-            <div class="explore-content-heading sec1-img-content">
-              COE Cyber Security (CompTIA)
+            <div class="explore-content-heading">
+              Dedicated Labs with licensed Software
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="explore-images sec1-img">
-          <img
-            src="./assets/Images for Training/COE for Automation (UI Path).jpg"
-            alt="TechFest"
-          />
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/4 Certified Trainers.jpg" alt="img" />
           <div class="explore-content">
-            <div class="explore-content-heading sec1-img-content">
-              COE for Automation (UI Path)
+            <div class="explore-content-heading">Certified Trainers</div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/5 Collaboration.jpg" alt="img" />
+          <div class="explore-content">
+            <div class="explore-content-heading">
+              Collaboration with top companies
             </div>
           </div>
         </div>
-        <div onclick="side_slide(-1)" class="slide left">
-          <span class="fas fa-angle-left"></span>
+        <div data-aos="fade-up" class="explore-images">
+          <img src="./assets/training/6 Focus on Latest TEch.webp" alt="img" />
+          <div class="explore-content">
+            <div class="explore-content-heading">
+              Focus on latest technologies
+            </div>
+          </div>
         </div>
-        <div onclick="side_slide(1)" class="slide right">
-          <span class="fas fa-angle-right"></span>
+      </div>
+    </div> -->
+
+    <div class="recruiters-container">
+      <div class="recruiters-header-container main-heading-black">
+        <h2 >Industry Training Partners</h2>
+      </div>
+      <hr class="divider-black" />
+      <div class="recruiters-content">
+        <div class="recruiters-slider-container">
+          <div class="sliding-container">
+            <div class="showSlider">
+              <img src="./assets/recruiters/cognizant.png" alt="cognizant" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/Byjus.png" alt="Byjus" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/cisco.png" alt="cisco" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/adobe.png" alt="adobe" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/chetu.png" alt="chetu" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/amazon.png" alt="amazon" />
+            </div>
+
+            <div class="showSlider">
+              <img src="./assets/recruiters/cognizant.png" alt="cognizant" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/Byjus.png" alt="Byjus" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/cisco.png" alt="cisco" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/adobe.png" alt="adobe" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/chetu.png" alt="chetu" />
+            </div>
+            <div class="showSlider">
+              <img src="./assets/recruiters/amazon.png" alt="amazon" />
+            </div>
+          </div>
         </div>
-        <div class="btm-slider">
-          <span onclick="btm_slide(1)"></span>
-          <span onclick="btm_slide(2)"></span>
-          <span onclick="btm_slide(3)"></span>
-          <span onclick="btm_slide(4)"></span>
-        </div>
+      </div>
+      <div class="chevron-icons">
+        <hr color="#E8E8E8" size="3" />
+        <i
+          onclick="recruitersControl(-1) "
+          id="left"
+          class="fa-solid fa-angle-left"
+        ></i>
+        <i
+          onclick="recruitersControl(1) "
+          id="right"
+          class="fa-solid fa-angle-right"
+        ></i>
+        <hr color="#E8E8E8" size="3" />
       </div>
     </div>
-
-    <!-- Section-2 Copied from mechanical-home Package -->
-    <section id="sec-4">
-      <div class="heading">
-        <h2>Training Roadmap</h2>
-        <!-- <hr color="#151514" size="3" /> -->
-        <hr color="#fff" size="3" />
-      </div>
-
-      <div class="sub-head">Automotive Technology</div>
-
-      <div class="line-div"></div>
-      <div class="sem-details">2nd Sem</div>
-      <div  class="image-and-content overflow-x-hidden">
-        <div data-aos="fade-right" class="image-container" id="automotive1"></div>
-        <div  class="content-container">
-          <div class="offset-div"></div>
-          <div data-aos="fade-left" class="text-container">
-            <div class="title">
-              TME 201 :<br />Introduction to Automotive Engg.
-            </div>
-            <div class="info">
-              <p>Skill Set : Current Automotive trends</p>
-              <p>No. of Hours : 15</p>
-              <p>Outcome : Absolute learning and understanding</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sem-details">3rd Sem</div>
-      <div class="image-and-content overflow-x-hidden">
-        <div class="content-container">
-          <div data-aos="fade-right" class="text-container">
-            <div class="title">
-              TME 301 :<br />Introduction to Automotive Engg.
-            </div>
-            <div class="info">
-              <p>Skill Set : Current Automotive trends</p>
-              <p>No. of Hours : 15</p>
-              <p>Outcome : Absolute learning and understanding</p>
-            </div>
-          </div>
-          <div class="offset-div"></div>
-        </div>
-        <div data-aos="fade-left" class="image-container" id="automotive2"></div>
-      </div>
-
-      <div class="sem-details">4rd Sem</div>
-      <div class="image-and-content overflow-x-hidden">
-        <div data-aos="fade-right" class="image-container" id="automotive3"></div>
-        <div class="content-container">
-          <div class="offset-div"></div>
-          <div data-aos="fade-left" class="text-container">
-            <div class="title">
-              TME 301 :<br />Introduction to Automotive Engg.
-            </div>
-            <div class="info">
-              <p>Skill Set : Current Automotive trends</p>
-              <p>No. of Hours : 15</p>
-              <p>Outcome : Absolute learning and understanding</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sem-details">5rd Sem</div>
-      <div class="image-and-content overflow-x-hidden">
-        <div class="content-container">
-          <div data-aos="fade-right" class="text-container">
-            <div class="title">
-              TME 301 :<br />Introduction to Automotive Engg.
-            </div>
-            <div class="info">
-              <p>Skill Set : Current Automotive trends</p>
-              <p>No. of Hours : 15</p>
-              <p>Outcome : Absolute learning and understanding</p>
-            </div>
-          </div>
-          <div class="offset-div"></div>
-        </div>
-        <div data-aos="fade-left" class="image-container" id="automotive4"></div>
-      </div>
-
-      <div class="sem-details">6rd Sem</div>
-      <div class="image-and-content overflow-x-hidden">
-        <div data-aos="fade-right" class="image-container" id="automotive5"></div>
-        <div class="content-container">
-          <div class="offset-div">
-            <div class="top-div"></div>
-          </div>
-          <div data-aos="fade-left" class="text-container">
-            <div class="title">
-              TME 301 :<br />Introduction to Automotive Engg.
-            </div>
-            <div class="info">
-              <p>Skill Set : Current Automotive trends</p>
-              <p>No. of Hours : 15</p>
-              <p>Outcome : Absolute learning and understanding</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section-3 -->
-    <div class="flip-container-main">
-      <div class="explore-header-container main-heading-black">
-        <h2>Training Details</h2>
-        <hr class="divider" />
-      </div>
-
-      <div class="flip-container">
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img
-              src="./assets/Images for Training/Data Structure and Algorithms.jpg"
-              alt="DSA"
-            />
-            <span class="box1-content">Data Structure and Algorithms</span>
-          </div>
-          <div class="box2">
-            <h3>Data Structure and Algorithms</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus animi sed, perspiciatis deleniti iure delectus
-              assumenda eligendi eos earum impedit id tempora repudiandae. Nam
-              officia molestiae eveniet.
-            </p>
-          </div>
-        </div>
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img
-              src="./assets/Images for Training/Full Stack Development.jpg"
-              alt="FSD"
-            />
-            <span class="box1-content">Full Stack Development</span>
-          </div>
-          <div class="box2">
-            <h3>Full Stack Development</h3>
-            <p>
-              Learning front-end and back-end technologies together with
-              full-stack development will help you develop a skill set that will
-              allow you to design, develop, and implement end-to-end web
-              applications with ease.
-            </p>
-          </div>
-        </div>
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img src="./assets/Images for Training/Java.jpg" alt="Java" />
-            <span class="box1-content">Java</span>
-          </div>
-          <div class="box2">
-            <h3>Java</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus animi sed, perspiciatis deleniti iure delectus
-              assumenda eligendi eos earum impedit id tempora repudiandae. Nam
-              officia molestiae eveniet.
-            </p>
-          </div>
-        </div>
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img src="./assets/Images for Training/Python.png" alt="python" />
-            <span class="box1-content">Python</span>
-          </div>
-          <div class="box2">
-            <h3>Python</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus animi sed, perspiciatis deleniti iure delectus
-              assumenda eligendi eos earum impedit id tempora repudiandae. Nam
-              officia molestiae eveniet.
-            </p>
-          </div>
-        </div>
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img
-              src="./assets/Images for Training/Problem Solving.jpg"
-              alt="PS"
-            />
-            <span class="box1-content">Problem Solving</span>
-          </div>
-          <div class="box2">
-            <h3>Problem Solving</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus animi sed, perspiciatis deleniti iure delectus
-              assumenda eligendi eos earum impedit id tempora repudiandae. Nam
-              officia molestiae eveniet.
-            </p>
-          </div>
-        </div>
-        <div class="flip-container-sub">
-          <div class="box1">
-            <img
-              src="./assets/Images for Training/Blockchain.jpg"
-              alt="clubs"
-            />
-            <span class="box1-content">Blockchain</span>
-          </div>
-          <div class="box2">
-            <h3>Blockchain</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus animi sed, perspiciatis deleniti iure delectus
-              assumenda eligendi eos earum impedit id tempora repudiandae. Nam
-              officia molestiae eveniet.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div id="footer" class="footer"></div>
   </body>
   <script>
-    const containerParent = document.querySelector(".flip-container");
-
-    // Add a click event listener to the common parent element
-    containerParent.addEventListener("click", function (event) {
-      const flipContainer = event.target.closest(".flip-container-sub");
-      if (flipContainer) {
-        flipContainer.classList.toggle("flipped");
-      }
-    });
-
-    // Add a mouseleave event listener to remove the "flipped" class when the cursor is removed
-    containerParent.addEventListener("mouseleave", function (event) {
-      const flippedElements = containerParent.querySelectorAll(".flipped");
-      flippedElements.forEach(function (element) {
-        element.classList.remove("flipped");
-      });
-    });
-
-    // Slider mobile COE section
-    var indexValue = 1;
-    showImg(indexValue);
-
-    function btm_slide(e) {
-      showImg((indexValue = e));
-    }
-
-    function side_slide(e) {
-      showImg((indexValue += e));
-    }
-    function showImg(e) {
-      var i;
-      const img = document.querySelectorAll(".explore-images");
-      const sliders = document.querySelectorAll(".btm-slider span");
-      if (e > img.length) {
-        indexValue = 1;
-      }
-      if (e < 1) {
-        indexValue = img.length;
-      }
-      for (i = 0; i < img.length; i++) {
-        img[i].style.display = "none";
-      }
-      for (i = 0; i < sliders.length; i++) {
-        sliders[i].style.background = "rgba(255, 255, 255, 0.1)";
-      }
-      img[indexValue - 1].style.display = "block";
-      sliders[indexValue - 1].style.background = "white";
-    }
-
-    function handleWindowResize() {
-      var windowWidth = window.innerWidth;
-      if (windowWidth < 450) {
-        setupSlider();
-      } else {
-        // Clear any styles or setup for larger screens
-        clearSlider();
-      }
-    }
-    // Attach the function to the window resize event
-    window.addEventListener("resize", handleWindowResize);
-
-    // Call the function on page load to initialize based on the initial window width
-    handleWindowResize();
-
-    function setupSlider() {}
-    function clearSlider() {
-      // Clear any styles or setup for larger screens
-      // For example, you can set all images to be visible
-      const img = document.querySelectorAll(".explore-images");
-      img.forEach((image) => {
-        image.style.display = "block";
-      });
-    }
-
     document.addEventListener("DOMContentLoaded", function () {
       AOS.init({
         duration: 1400,
