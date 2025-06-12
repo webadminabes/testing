@@ -406,6 +406,7 @@ tr {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  text-align: justify;
 }
 .points .explanation-bold {
   font-weight: 700;
@@ -591,15 +592,16 @@ tr {
   /* top banner */
 
   .banner {
-    height: 40vh;
+    height: 70vh;
     align-items: flex-end;
+	margin-top: 70px;
   }
   .banner-text {
     margin-top: 0;
     margin-bottom: 0rem;
   }
   .banner-text h1 {
-    font-size: 56px;
+    font-size: 45px;
   }
 
   /* Mechanical Engineering Mobile Responsive */
