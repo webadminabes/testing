@@ -31,14 +31,14 @@
     <!--THE COMMON CSS FILE-->
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" />-->
     <script src="./scripts/footer.js" defer></script>
     <script src="./scripts/header.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./scripts/aiml.js" defer></script>
     <script src="./scripts/carousel.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .padding {
             display: none;
@@ -419,6 +419,14 @@
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
+		ul li{
+			font-family: "GT America Regular"
+		}
+		@media (max-width: 450px) {
+			.header-image {
+				max-height: 319px;
+			}
+		}
     </style>
     <script>
         const queryString = window.location.hash;
@@ -1928,414 +1936,286 @@
                 <p class="font-albertus-medium text-16 text-bold">CSE AIML TOPPER'S - First Year (Odd Semester)</p>
             </div>
 
-            <table data-aos="fade-right" id="table3-deks" class="aos-init aos-animate">
-                <tbody>
-                    <tr>
-                        <th colspan="4">Name</th>
-                        <th colspan="4">SGPA</th>
-                        <th colspan="4">Rank</th>
-                        <th colspan="4">Batch</th>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">AKSHITA</td>
-                        <td colspan="4">9.55</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2022-2026</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">PRAJAKTA SINGHAL</td>
-                        <td colspan="4">9.55</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2022-2026</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">AKSHITA</td>
-                        <td colspan="4">9.32</td>
-                        <td colspan="4">2</td>
-                        <td colspan="4">2022-2026</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">AKSHITA</td>
-                        <td colspan="4">9.23</td>
-                        <td colspan="4">3</td>
-                        <td colspan="4">2022-2026</td>
-                    </tr>
-                </tbody>
-            </table>           
+            <div class="table-responsive">
+				<table class="table table-bordered table-striped text-center align-middle" data-aos="fade-right" id="table3-deks">
+					<thead class="table-dark">
+						<tr>
+							<th>Name</th>
+							<th>SGPA</th>
+							<th>Rank</th>
+							<th>Batch</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>AKSHITA</td>
+							<td>9.55</td>
+							<td>1</td>
+							<td>2022-2026</td>
+						</tr>
+						<tr>
+							<td>PRAJAKTA SINGHAL</td>
+							<td>9.55</td>
+							<td>1</td>
+							<td>2022-2026</td>
+						</tr>
+						<tr>
+							<td>AKSHITA</td>
+							<td>9.32</td>
+							<td>2</td>
+							<td>2022-2026</td>
+						</tr>
+						<tr>
+							<td>AKSHITA</td>
+							<td>9.23</td>
+							<td>3</td>
+							<td>2022-2026</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>           
 
             <div class="p-10-20 grid-col-3 bg-grey">
                 <p class="font-albertus-medium text-16 text-bold">CSE AIML TOPPER'S - Second Year (Odd Semester)</p>
             </div>
 
-            <table data-aos="fade-right" id="table3-deks" class="aos-init aos-animate">
-                <tbody>
-                    <tr>
-                        <th colspan="4">Name</th>
-                        <th colspan="4">SGPA</th>
-                        <th colspan="4">Rank</th>
-                        <th colspan="4">Batch</th>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">ABHINAV RAJ SRIVASTAVA</td>
-                        <td colspan="4">8.82</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">ANSHIKA GUPTA</td>
-                        <td colspan="4">8.82</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">MANISHA TAYAL</td>
-                        <td colspan="4">8.36</td>
-                        <td colspan="4">2</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">PRINCE GUPTA</td>
-                        <td colspan="4">8.36</td>
-                        <td colspan="4">2</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">DAKSH VERMA</td>
-                        <td colspan="4">8.18</td>
-                        <td colspan="4">3</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">NANDINI GARG</td>
-                        <td colspan="4">8.18</td>
-                        <td colspan="4">3</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">SHREYA GARG</td>
-                        <td colspan="4">8.18</td>
-                        <td colspan="4">3</td>
-                        <td colspan="4">2021-2025</td>
-                    </tr>
-                </tbody>
-            </table>  
+            <div class="table-responsive">
+			  <table class="table table-bordered table-striped text-center align-middle" data-aos="fade-right" id="table3-deks">
+				<thead class="table-dark">
+				  <tr>
+					<th>Name</th>
+					<th>SGPA</th>
+					<th>Rank</th>
+					<th>Batch</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>ABHINAV RAJ SRIVASTAVA</td>
+					<td>8.82</td>
+					<td>1</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>ANSHIKA GUPTA</td>
+					<td>8.82</td>
+					<td>1</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>MANISHA TAYAL</td>
+					<td>8.36</td>
+					<td>2</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>PRINCE GUPTA</td>
+					<td>8.36</td>
+					<td>2</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>DAKSH VERMA</td>
+					<td>8.18</td>
+					<td>3</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>NANDINI GARG</td>
+					<td>8.18</td>
+					<td>3</td>
+					<td>2021-2025</td>
+				  </tr>
+				  <tr>
+					<td>SHREYA GARG</td>
+					<td>8.18</td>
+					<td>3</td>
+					<td>2021-2025</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
 
             <div class="p-10-20 grid-col-3 bg-grey">
                 <p class="font-albertus-medium text-16 text-bold">CSE AIML TOPPER'S - Third Year (Odd Semester)</p>
             </div>
 
-            <table data-aos="fade-right" id="table3-deks" class="aos-init aos-animate">
-                <tbody>
-                    <tr>
-                        <th colspan="4">Name</th>
-                        <th colspan="4">SGPA</th>
-                        <th colspan="4">Rank</th>
-                        <th colspan="4">Batch</th>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">AAYUSH GUPTA</td>
-                        <td colspan="4">8.36</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2020-2024</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">NISHANT KUMAR TIWARI</td>
-                        <td colspan="4">8.36</td>
-                        <td colspan="4">1</td>
-                        <td colspan="4">2020-2024</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">ISHAN</td>
-                        <td colspan="4">8.32</td>
-                        <td colspan="4">2</td>
-                        <td colspan="4">2020-2024</td>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">ISHITA VERMA</td>
-                        <td colspan="4">8.23</td>
-                        <td colspan="4">3</td>
-                        <td colspan="4">2020-2024</td>
-                    </tr>
-                </tbody>
-            </table> 
+            <div class="table-responsive">
+			  <table class="table table-bordered table-striped text-center align-middle" data-aos="fade-right" id="table3-deks">
+				<thead class="table-dark">
+				  <tr>
+					<th>Name</th>
+					<th>SGPA</th>
+					<th>Rank</th>
+					<th>Batch</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>AAYUSH GUPTA</td>
+					<td>8.36</td>
+					<td>1</td>
+					<td>2020-2024</td>
+				  </tr>
+				  <tr>
+					<td>NISHANT KUMAR TIWARI</td>
+					<td>8.36</td>
+					<td>1</td>
+					<td>2020-2024</td>
+				  </tr>
+				  <tr>
+					<td>ISHAN</td>
+					<td>8.32</td>
+					<td>2</td>
+					<td>2020-2024</td>
+				  </tr>
+				  <tr>
+					<td>ISHITA VERMA</td>
+					<td>8.23</td>
+					<td>3</td>
+					<td>2020-2024</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
 
 
             <div class="red-heading">
                 Students Participation in Global Certification/Internship
             </div>
 
-            <div data-aos="fade-left" class="grid-3-2-2 my-48">
-                <div class="p-10-20 bg-black">
-                    <p class="font-albertus-medium text-white text-16">Event Name</p>
-                </div>
-                <div class="p-10-20 bg-black">
-                    <p class="font-albertus-medium text-white text-16">Students Name</p>
-                </div>
-                <div class="p-10-20 bg-black">
-                    <p class="font-albertus-medium text-white text-16">The student has been offered the stipend of Rs 1
-                        lakh (for two months)</p>
-                </div>
+            <div class="table-responsive mt-5">
+			  <table class="table table-bordered table-striped align-middle text-center">
+				<thead class="table-dark">
+				  <tr>
+					<th>Event Name</th>
+					<th>Students Name</th>
+					<th>Achievement</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <!-- Fourth Year -->
+				  <tr class="table-secondary fw-bold text-start">
+					<td colspan="3">Fourth Year</td>
+				  </tr>
+				  <tr>
+					<td>1st rank in Rategain Code Rangers 2024 Hackathon</td>
+					<td>Mr. Amol Singh, Mr. Aman Rai, Mr. Akash Pathak</td>
+					<td>Cash prize of ₹1,50,000 + goodies</td>
+				  </tr>
+				  <tr>
+					<td>Titan Future Wear TechAthon 2023</td>
+					<td>Sachin, Mr. Sagar Singh, Manik Grewal, Pooja Deshwal</td>
+					<td>3rd Position (sub-round 2) – 6000+ teams</td>
+				  </tr>
+				  <tr>
+					<td>Samagra Governance Code4Gov Tech Internship Program</td>
+					<td>Amol Singh</td>
+					<td>Stipend ₹1,00,000 (2 months)</td>
+				  </tr>
 
-                <div class="p-10-20 grid-col-3 bg-grey">
-                    <p class="font-albertus-medium text-16 text-bold">Fourth Year</p>
-                </div>
+				  <!-- Third Year -->
+				  <tr class="table-secondary fw-bold text-start">
+					<td colspan="3">Third Year</td>
+				  </tr>
+				  <tr>
+					<td>TiE U Global Pitch Competition 2024</td>
+					<td>Anirudh Pratap Singh</td>
+					<td>4th Rank – Cash Prize ₹5,000</td>
+				  </tr>
+				  <tr>
+					<td>CODECRAFT CHALLENGE – IGNITE 2K24 (IILM University)</td>
+					<td>Ankit Yadav, Anash Malik</td>
+					<td>1st Position – ₹3,000</td>
+				  </tr>
+				  <tr>
+					<td>BNB Chain Hackathon</td>
+					<td>Akash Biswas, Priyanshu Ranjan</td>
+					<td>Potential Award – $666</td>
+				  </tr>
+				  <tr>
+					<td>Hacked 2.0 – BML Munjal University</td>
+					<td>Atharva Yash Shrivastava, Anushka Garg, Ashana Mittal, Agrit Garg</td>
+					<td>2nd Rank – ₹15,000</td>
+				  </tr>
+				  <tr>
+					<td>Idea Manthan 2.0</td>
+					<td>Anirudh Pratap Singh</td>
+					<td>₹30,000</td>
+				  </tr>
+				  <tr>
+					<td>Live the Code 2.0 Hackathon</td>
+					<td>Akash Biswas, Priyanshu Ranjan</td>
+					<td>Cash Prize $100</td>
+				  </tr>
+				  <tr>
+					<td>IZET Ventures Pvt. Ltd.</td>
+					<td>Sarthak Gupta</td>
+					<td>Started a Startup</td>
+				  </tr>
+				  <tr>
+					<td>Studlence Codeathon Challenge 2023</td>
+					<td>Nishant Khatri, Ayush Kumar Tiwari</td>
+					<td>6th and 10th Position</td>
+				  </tr>
+				  <tr>
+					<td>GSoC 2023 – Improved Installation Tools</td>
+					<td>Aditya Saini</td>
+					<td>Contributor – $1500 Stipend</td>
+				  </tr>
+				  <tr>
+					<td>Deshbhakti Geet Competition (State Level)</td>
+					<td>Anirudh Anand</td>
+					<td>2nd Position – ₹75,000</td>
+				  </tr>
+				  <tr>
+					<td>ENYUGMA Hackathon – IIIT Bhagalpur</td>
+					<td>Sagar Singh, Jatin Tyagi</td>
+					<td>3rd Position – ₹10,000 + Certificates</td>
+				  </tr>
 
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">"1st rank in Rategain Code rangers 2024 Hackathon</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Mr. Amol Singh, Mr. Aman Rai, Mr. Akash Pathak</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">cash prize of Rs. 1 lakh 50 thousands along with goodies and gift hampers</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Titan Future Wear TechAthon 2023</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Sachin, Mr. Sagar Singh ,Manik Grewal, Pooja Deshwal</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Securing 3rd  Position in finale round (sub-round 2) of hackathon in which 6000+ teams </p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Samagra Governece Code4Gov Tech Internship Program</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Amol Singh</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Stipend of Rs 1 lakh (for two months)</p>
-                </div>
-
-                <div class="p-10-20 grid-col-3 bg-grey">
-                    <p class="font-albertus-medium text-16 text-bold">Third Year</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">TiE U Global Pitch Competition 2024</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Anirudh Pratap Singh</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Secured 4th rank and won a cash prize INR 5000</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">CODECRAFT CHALLENGE in IGNITE 2K24 IILM University</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Ankit Yadav, Anash Malik</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">secured 1st position and won a cash prize of 3000</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Hackathon “BNB Chain Hackathon: Building smart and fully on-chain applications”</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Akash Biswas, Priyanshu Ranjan</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Won ranking of Potential Award with cash Prize $666.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Hacked 2.0, Hackathon at BML MUNJAL UNIVERSITY </p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Atharva Yash Shrivastava, Anushka Garg, Ashana Mittal, Agrit Garg</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Secured 2nd rank and won a cash prize INR 15000</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Idea Manthan 2.0.</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Anirudh Pratap Singh</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">INR 30,000</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Hackathon - “Live the Code 2.0”</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Akash Biswas, Priyanshu Ranjan</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Cash Prize $100</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Start-up “IZET VENTURES PRIVATE LIMITED”</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Sarthak Gupta</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Started a Start-up</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Studlence Codeathon Challenge- 2023(1st March 2023) organized by Studlence EduTech Private Limited.</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Nishant Khatri, Ayush Kumar Tiwari</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">secure 6th and 10th Position.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Google Summer of Code 2023 (GSoC 2023)" for the project named "Improved Installation Tools"</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Aditya Saini</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">selected as a "Contributor" "The student has been offered the stipend of $1500 USD."</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Unity In Creativity - Deshbhakti Geet Competition'  at state level (Uttar Pradesh), organized by Ministry  Of Culture, on the occasion of 75th Azadi Ka Amrit Mohotsav.</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Anirudh Anand</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Secured 2nd position and won a cash prize of Rs. 75000.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">"ENYUGMA" Bit- by- Bit Hackaton-2022 held at IIIT, Bhagalpur</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Sagar Singh, Jatin Tyagi</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Secured 3rd position and won a cash prize of Rs. 10,000 along with merit certificates</p>
-                </div>
-
-                <!--<div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Samagra Governece Code4Gov Tech Internship Program Project
-                        Title " Sunbird Learn-Integrate with non-Keycloak
-                        authentication system"</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Amol Singh</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">The student has been offered the stipend of Rs 1 lakh (for
-                        two months)</p>
-                </div>-->
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Studlence Codeathon Challenge- 2023 organized by Studlence
-                        EduTech Private Limited.</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Nishant Khatri <br> Ayush Kumar Tiwari</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">secure 6th and 10th Position.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Google Summer of Code 2023 (GSoC 2023) Project Title
-                        "Improved Installation Tools"</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Aditya Saini</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">selected as a "Contributor" The student has been offered the
-                        stipend of $1500 USD.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">"ENYUGMA" Bit- by- Bit Hackaton-2022 held at IIIT, Bhagalpur
-                    </p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Sagar SinghJatin Tyagi</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">secured 3rd position and won a cash prize of Rs. 10,000
-                        along with merit certificates</p>
-                </div>
-
-                <div class="p-10-20 grid-col-3 bg-grey">
-                    <p class="font-albertus-medium text-16 text-bold">Second Year</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">“Web-A-Thon”  of Hack-A-Thon 2K24</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Priyanshi Chakervorty, Ishank</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Secured 1st and 2nd rank and won a cash prize along with winning certificates.</p>
-                </div>
-
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Unity In Creativity - Deshbhakti Geet Competition' at state
-                        level (Uttar Pradesh), organized by Ministry Of Culture, on
-                        the occasion of 75th Azadi Ka Amrit Mohotsav</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">Anirudh Anand</p>
-                </div>
-                <div class="p-10-20 border-b-black">
-                    <p class="font-albertus-medium text-16">secured 2nd position and won a cash prize of Rs. 75000.</p>
-                </div>
-
-            </div>
+				  <!-- Second Year -->
+				  <tr class="table-secondary fw-bold text-start">
+					<td colspan="3">Second Year</td>
+				  </tr>
+				  <tr>
+					<td>Web-A-Thon – Hack-A-Thon 2K24</td>
+					<td>Priyanshi Chakervorty, Ishank</td>
+					<td>1st & 2nd Rank + Cash Prize</td>
+				  </tr>
+				  <tr>
+					<td>Deshbhakti Geet Competition (State Level)</td>
+					<td>Anirudh Anand</td>
+					<td>2nd Position – ₹75,000</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
 
             <div class="red-heading">
                 Higher Studies
             </div>    
 
-            <table data-aos="fade-right" id="table3-deks" class="aos-init aos-animate">
-                <tbody>
-                    <tr>
-                        <th colspan="4">S.No.</th>
-                        <th colspan="4">Name</th>
-                        <th colspan="4">Name of institution</th>
-                        <th colspan="4">Name of programme</th>
-                    </tr>
-
-                    <tr>
-                        <td colspan="4">1</td>
-                        <td colspan="4">Akshaj Agarwal</td>
-                        <td colspan="4">Utrecht University, Netherlands</td>
-                        <td colspan="4">Master's program in Artificial Intelligence</td>
-                    </tr>
-                </tbody>
-            </table>    
+            <div class="table-responsive" data-aos="fade-right">
+			  <table id="table3-deks" class="table table-bordered table-striped">
+				<thead class="table-dark">
+				  <tr>
+					<th>S.No.</th>
+					<th>Name</th>
+					<th>Name of Institution</th>
+					<th>Name of Programme</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>1</td>
+					<td>Akshaj Agarwal</td>
+					<td>Utrecht University, Netherlands</td>
+					<td>Master's program in Artificial Intelligence</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
 
 
             <div class="main-heading-container">
@@ -2508,7 +2388,7 @@
             </div>
 
             <div data-aos="fade-left" class="overflow-x-hidden">
-                <div data-aos="fade-left" class="achievements-boxes-container" id="college-topper">
+                <div data-aos="fade-left" class="achievements-boxes-container" id="gate-topper">
                     <div class="achievements-box">
                         <div class="achiever-info">
                             <div class="achiever-name">Archit Sangal</div>
@@ -2556,8 +2436,8 @@
 
                 <div class="chevron-icons">
                     <hr color="#E8E8E8" size="3" />
-                    <i onclick="goPrevCollegeTopper()" id="left" class="fa-solid fa-angle-left"></i>
-                    <i onclick="goNextCollegeTopper()" id="right" class="fa-solid fa-angle-right"></i>
+                    <i onclick="goPrevGateTopper()" id="left" class="fa-solid fa-angle-left"></i>
+                    <i onclick="goNextGateTopper()" id="right" class="fa-solid fa-angle-right"></i>
                     <hr color="#E8E8E8" size="3" />
                 </div>
             </div>
